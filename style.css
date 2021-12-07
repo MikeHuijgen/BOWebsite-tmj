@@ -36,17 +36,18 @@ nav > ul > li > a{
     color: white;
 }
 
-.active{
-    background-color: darkred;
-}
-
 h1{
     font-weight: 500 bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 120px;
-    text-align: center;
     margin-top: 0px ;
 }
+
+
+
+
+
+
 
 footer{
     background-color:black;
@@ -54,7 +55,7 @@ footer{
     height: 300px;
 }
 
-/* class */
+/* id */
 
 #grad1{
     height: 500px;
@@ -62,3 +63,59 @@ footer{
     background-image: linear-gradient(to bottom right, darkorange, rgb(255, 153, 0), rgb(255, 196, 0), rgb(224, 183, 1));
 }
 
+/* class */
+
+.h1{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 500%;
+}
+
+.tourplaatje{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.active{
+    background-color: darkred;
+}
+
+.leftdownbutton{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    bottom: 50px;
+    left: 50px;
+    font-size: 40px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.leftdownbutton:hover{
+    background-color: darkred;
+}
+
+.backimg{
+    width: 100%;
+    height: 700px;
+    filter: blur(2px);
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.nlvlag{
+    width: 50px;
+    height: 30px;
+}
