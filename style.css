@@ -1,3 +1,13 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    margin-top: 0px;
+}
+
 header{
     background-color: black;
     width: 100%;
@@ -6,7 +16,7 @@ header{
 }
 
 nav{
-    width: 60vw;
+    width: 80vw;
     height: 60px;
     margin: 0 auto;
 }
@@ -37,9 +47,7 @@ nav > ul > li > a{
 }
 
 h1{
-    font-weight: 500 bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 120px;
     margin-top: 0px ;
 }
 
@@ -48,11 +56,22 @@ h1{
 
 
 
+h2{
+    margin-top: 10px;
+}
+
+p{
+    color: white;
+    margin: 8px 0px;
+    font-size: 18px;
+}
 
 footer{
     background-color:black;
     width: 100%;
     height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* id */
@@ -61,6 +80,9 @@ footer{
     height: 500px;
     background-color: blueviolet;
     background-image: linear-gradient(to bottom right, darkorange, rgb(255, 153, 0), rgb(255, 196, 0), rgb(224, 183, 1));
+    margin-bottom: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 /* class */
@@ -70,7 +92,7 @@ footer{
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 500%;
+    font-size: 650%;
 }
 
 .tourplaatje{
@@ -78,6 +100,7 @@ footer{
     text-align: center;
     align-items: center;
     color: white;
+    margin-bottom: 0px;
 }
 
 .active{
@@ -107,7 +130,7 @@ footer{
 .backimg{
     width: 100%;
     height: 700px;
-    filter: blur(2px);
+    margin-bottom: 0px;
 }
 
 .logo{
@@ -115,7 +138,56 @@ footer{
     height: 60px;
 }
 
-.nlvlag{
+.vlag{
     width: 50px;
     height: 30px;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.kaartbutton{
+    color: rgb(224, 183, 1);
+}
+
+.midsectionleft{
+    border: 5px solid black;
+    text-align: center;
+    height: 400px;
+    align-self: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: 19%; 
+}
+
+.midsectionright{
+    border: 5px solid black;
+    text-align: center;
+    height: 400px;
+    align-self: center;
+    justify-content: center;
+    width: 80%; 
+    margin-left: 1%;
+}
+
+.footerh2{
+    color: white;
+    display: inline;
+    font-size: 40px;
+}
+
+.footersec{
+    border: 1px solid red;
+    height: 250px;
+    width: 43%;
+    margin: 0 auto;
+    margin: auto;
+    margin-left: 180px;
+}
+
+.gsP{
+
+    height: 340px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 30px;
 }
