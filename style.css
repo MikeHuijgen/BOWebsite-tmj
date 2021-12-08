@@ -28,7 +28,7 @@ nav > ul{
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 30px;
 }
 
 nav > ul > li{
@@ -44,6 +44,7 @@ nav > ul > li > a{
     line-height: 60px;
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
 
 h1{
@@ -60,11 +61,6 @@ h2{
     margin-top: 10px;
 }
 
-p{
-    color: white;
-    margin: 8px 0px;
-    font-size: 18px;
-}
 
 footer{
     background-color:black;
@@ -136,9 +132,18 @@ footer{
 .logo{
     width: 60px;
     height: 60px;
+    margin-right: 200px;
 }
 
-.vlag{
+.nlvlag{
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
+.envlag{
     width: 50px;
     height: 30px;
     margin: 10px;
@@ -147,6 +152,7 @@ footer{
 
 .kaartbutton{
     color: rgb(224, 183, 1);
+    border: 1px solid rgb(255, 153, 0);
 }
 
 .midsectionleft{
@@ -172,16 +178,17 @@ footer{
 .footerh2{
     color: white;
     display: inline;
-    font-size: 40px;
+    font-size: 30px;
+    text-align: center;
 }
 
 .footersec{
     border: 1px solid red;
     height: 250px;
-    width: 43%;
+    width: 225px;
     margin: 0 auto;
     margin: auto;
-    margin-left: 180px;
+    text-align: center;
 }
 
 .gsP{
@@ -191,3 +198,16 @@ footer{
     text-align: center;
     padding: 30px;
 }
+
+.slideimg{
+    padding: 22px;
+}
+
+.footerp{
+    color: white;
+    margin: 8px 0px;
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: left;
+}
+
