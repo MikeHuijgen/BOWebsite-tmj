@@ -1,3 +1,15 @@
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    margin-top: 0px;
+}
+
 header{
     background-color: black;
     width: 100%;
@@ -6,7 +18,11 @@ header{
 }
 
 nav{
+
     width: 60vw;
+
+    width: 80vw;
+
     height: 60px;
     margin: 0 auto;
 }
@@ -18,7 +34,8 @@ nav > ul{
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 30px;
+
 }
 
 nav > ul > li{
@@ -34,12 +51,19 @@ nav > ul > li > a{
     line-height: 60px;
     text-decoration: none;
     color: white;
+
 }
 
 h1{
     font-weight: 500 bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 120px;
+
+    font-size: 20px;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 0px ;
 }
 
@@ -49,10 +73,22 @@ h1{
 
 
 
+
+h2{
+    margin-top: 10px;
+}
+
+
+
 footer{
     background-color:black;
     width: 100%;
     height: 300px;
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 /* id */
@@ -61,6 +97,12 @@ footer{
     height: 500px;
     background-color: blueviolet;
     background-image: linear-gradient(to bottom right, darkorange, rgb(255, 153, 0), rgb(255, 196, 0), rgb(224, 183, 1));
+
+
+    margin-bottom: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
 
 /* class */
@@ -70,7 +112,13 @@ footer{
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     font-size: 500%;
+}
+
+
+
+    font-size: 650%;
 }
 
 
@@ -79,6 +127,10 @@ footer{
     text-align: center;
     align-items: center;
     color: white;
+
+
+    margin-bottom: 0px;
+
 }
 
 .active{
@@ -108,18 +160,23 @@ footer{
 .backimg{
     width: 100%;
     height: 700px;
-    filter: blur(2px);
+    margin-bottom: 0px;
+
 }
 
 .logo{
     width: 60px;
     height: 60px;
+
+
+    margin-right: 200px;
+
 }
 
 .nlvlag{
     width: 50px;
     height: 30px;
-}
+
 
 
 
@@ -232,3 +289,78 @@ footer{
     margin-left: -3px;
     top: 0;
   }
+
+    margin: 10px;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
+.envlag{
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.kaartbutton{
+    color: rgb(224, 183, 1);
+    border: 1px solid rgb(255, 153, 0);
+}
+
+.midsectionleft{
+    border: 5px solid black;
+    text-align: center;
+    height: 400px;
+    align-self: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: 19%; 
+}
+
+.midsectionright{
+    border: 5px solid black;
+    text-align: center;
+    height: 400px;
+    align-self: center;
+    justify-content: center;
+    width: 80%; 
+    margin-left: 1%;
+}
+
+.footerh2{
+    color: white;
+    display: inline;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footersec{
+    border: 1px solid red;
+    height: 250px;
+    width: 225px;
+    margin: 0 auto;
+    margin: auto;
+    text-align: center;
+}
+
+.gsP{
+
+    height: 340px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 30px;
+}
+
+.slideimg{
+    padding: 22px;
+}
+
+.footerp{
+    color: white;
+    margin: 8px 0px;
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: left;
+}
+
+
