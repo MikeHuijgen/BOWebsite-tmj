@@ -1,3 +1,5 @@
+
+
 *{
     padding:0;
     margin:0;
@@ -16,7 +18,11 @@ header{
 }
 
 nav{
+
+    width: 60vw;
+
     width: 80vw;
+
     height: 60px;
     margin: 0 auto;
 }
@@ -29,6 +35,7 @@ nav > ul{
     align-items: center;
     justify-content: space-evenly;
     gap: 30px;
+
 }
 
 nav > ul > li{
@@ -44,6 +51,14 @@ nav > ul > li > a{
     line-height: 60px;
     text-decoration: none;
     color: white;
+
+}
+
+h1{
+    font-weight: 500 bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120px;
+
     font-size: 20px;
 }
 
@@ -57,17 +72,23 @@ h1{
 
 
 
+
+
 h2{
     margin-top: 10px;
 }
+
 
 
 footer{
     background-color:black;
     width: 100%;
     height: 300px;
+
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 /* id */
@@ -76,9 +97,12 @@ footer{
     height: 500px;
     background-color: blueviolet;
     background-image: linear-gradient(to bottom right, darkorange, rgb(255, 153, 0), rgb(255, 196, 0), rgb(224, 183, 1));
+
+
     margin-bottom: 3px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 }
 
 /* class */
@@ -88,15 +112,25 @@ footer{
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    font-size: 500%;
+}
+
+
+
     font-size: 650%;
 }
+
 
 .tourplaatje{
     position: relative;
     text-align: center;
     align-items: center;
     color: white;
+
+
     margin-bottom: 0px;
+
 }
 
 .active{
@@ -127,17 +161,135 @@ footer{
     width: 100%;
     height: 700px;
     margin-bottom: 0px;
+
 }
 
 .logo{
     width: 60px;
     height: 60px;
+
+
     margin-right: 200px;
+
 }
 
 .nlvlag{
     width: 50px;
     height: 30px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* classes */
+
+.titleKaartjes{
+    margin-bottom: 80px;
+}
+
+.hoeveelheidKaartjes{
+    
+    display: inline;
+    margin-bottom: 0px;
+}
+
+.kostenKaartjes{
+    display: inline;
+    margin-top: 0px;
+}
+
+.h2Kinderen{
+    margin-bottom: 5px;
+}
+
+.h2Studenten{
+    margin-bottom: 5px;
+}
+
+
+/* extra */ 
+.vl {
+    border-right: 2px solid black;
+    right: 50%;
+    height: 800px;
+    position: absolute;
+    margin-left: -3px;
+    top: 0;
+  }
+
     margin: 10px;
     margin-top: 15px;
     margin-left: 150px;
@@ -210,4 +362,5 @@ footer{
     font-size: 15px;
     text-align: left;
 }
+
 
