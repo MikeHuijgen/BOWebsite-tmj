@@ -1,0 +1,366 @@
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    margin-top: 0px;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 0;
+}
+
+nav{
+
+    width: 60vw;
+
+    width: 80vw;
+
+    height: 60px;
+    margin: 0 auto;
+}
+
+nav > ul{
+    display: flex;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+
+}
+
+nav > ul > li{
+    width: 100%;
+    height: 100%;
+}
+
+nav > ul > li > a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    color: white;
+
+}
+
+h1{
+    font-weight: 500 bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120px;
+
+    font-size: 20px;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0px ;
+}
+
+
+
+
+
+
+
+
+h2{
+    margin-top: 10px;
+}
+
+
+
+footer{
+    background-color:black;
+    width: 100%;
+    height: 300px;
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+/* id */
+
+#grad1{
+    height: 500px;
+    background-color: blueviolet;
+    background-image: linear-gradient(to bottom right, darkorange, rgb(255, 153, 0), rgb(255, 196, 0), rgb(224, 183, 1));
+
+
+    margin-bottom: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+/* class */
+
+.h1{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 500%;
+}
+
+
+
+    font-size: 650%;
+}
+
+
+.tourplaatje{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    color: white;
+
+
+    margin-bottom: 0px;
+
+}
+
+.active{
+    background-color: darkred;
+}
+
+.leftdownbutton{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    bottom: 50px;
+    left: 50px;
+    font-size: 40px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.leftdownbutton:hover{
+    background-color: darkred;
+}
+
+.backimg{
+    width: 100%;
+    height: 700px;
+    margin-bottom: 0px;
+
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+
+
+    margin-right: 200px;
+
+}
+
+.nlvlag{
+    width: 50px;
+    height: 30px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* classes */
+
+.titleKaartjes{
+    margin-bottom: 80px;
+}
+
+.hoeveelheidKaartjes{
+    
+    display: inline;
+    margin-bottom: 0px;
+}
+
+.kostenKaartjes{
+    display: inline;
+    margin-top: 0px;
+}
+
+.h2Kinderen{
+    margin-bottom: 5px;
+}
+
+.h2Studenten{
+    margin-bottom: 5px;
+}
+
+
+/* extra */ 
+.vl {
+    border-right: 2px solid black;
+    right: 50%;
+    height: 800px;
+    position: absolute;
+    margin-left: -3px;
+    top: 0;
+  }
+
+    margin: 10px;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
+.envlag{
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.kaartbutton{
+    color: rgb(224, 183, 1);
+    border: 1px solid rgb(255, 153, 0);
+}
+
+.midsectionleft{
+    border: 5px solid black;
+    text-align: center;
+    height: 400px;
+    align-self: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: 19%; 
+}
+
+.midsectionright{
+    border: 5px solid black;
+    text-align: center;
+    height: 400px;
+    align-self: center;
+    justify-content: center;
+    width: 80%; 
+    margin-left: 1%;
+}
+
+.footerh2{
+    color: white;
+    display: inline;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footersec{
+    border: 1px solid red;
+    height: 250px;
+    width: 225px;
+    margin: 0 auto;
+    margin: auto;
+    text-align: center;
+}
+
+.gsP{
+
+    height: 340px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 30px;
+}
+
+.slideimg{
+    padding: 22px;
+}
+
+.footerp{
+    color: white;
+    margin: 8px 0px;
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: left;
+}
+
+
