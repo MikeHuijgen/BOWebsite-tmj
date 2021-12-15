@@ -1,5 +1,4 @@
 
-
 *{
     padding:0;
     margin:0;
@@ -67,13 +66,6 @@ h1{
     margin-top: 0px ;
 }
 
-
-
-
-
-
-
-
 h2{
     margin-top: 10px;
 }
@@ -116,19 +108,11 @@ footer{
     font-size: 500%;
 }
 
-
-
-    font-size: 650%;
-}
-
-
 .tourplaatje{
     position: relative;
     text-align: center;
     align-items: center;
     color: white;
-
-
     margin-bottom: 0px;
 
 }
@@ -167,92 +151,20 @@ footer{
 .logo{
     width: 60px;
     height: 60px;
-
-
     margin-right: 200px;
-
 }
 
 .nlvlag{
     width: 50px;
     height: 30px;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    margin-top: 10%;
+}
+
+.envlag{
+    width: 50px;
+    height: 30px;
+    margin-top: 10%;
+}
 
 /* classes */
 
@@ -288,8 +200,6 @@ footer{
     position: absolute;
     margin-left: -3px;
     top: 0;
-  }
-
     margin: 10px;
     margin-top: 15px;
     margin-left: 150px;
