@@ -91,13 +91,10 @@ footer{
     background-color: blueviolet;
     background-image: linear-gradient(to bottom right, darkorange, rgb(255, 153, 0), rgb(255, 196, 0), rgb(224, 183, 1));
 
-
     margin-bottom: 3px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
-
 /* class */
 
 .h1{
@@ -173,21 +170,16 @@ footer{
 
 .hoeveelheidKaartjes{
     font-size: 40px;
-  
-   
     margin-bottom: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline;
+    text-align: center;
 }
 
 .kostenKaartjes{
     font-size: 40px;
-    
     margin-top: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline;
+    text-align: right;
 }
 
 .h2Kinderen{
@@ -199,21 +191,29 @@ footer{
 }
 
 .buttonKinderen{
-
+    width: 50px;
+    height: 50px;
+    background-color: red;
 }
 .buttonVolwassenen{
-
+    width: 50px;
+    height: 50px;
+    background-color: red;
 }
 .buttonBejaarden{
-
+    width: 50px;
+    height: 50px;
+    background-color: red;
 }
 .buttonStudenten{
-
+    width: 50px;
+    height: 50px;
+    background-color: red;
 }
 
 /* extra */ 
 .leftLine {
-    border: 1px solid rgb(175, 62, 81);
+    border: 1px solid rgb(0, 255, 106);
     position: fixed;
     position: absolute;
     left: 33%;
@@ -221,7 +221,7 @@ footer{
 }
 
 .rightLine{
-    border: 1px solid rgb(175, 62, 81);
+    border: 1px solid rgb(0, 255, 34);
     position: fixed;
     position: absolute;
     left: 66%;
