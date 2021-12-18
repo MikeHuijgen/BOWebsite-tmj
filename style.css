@@ -17,11 +17,8 @@ header{
 }
 
 nav{
-
     width: 60vw;
-
     width: 80vw;
-
     height: 60px;
     margin: 0 auto;
 }
@@ -50,7 +47,6 @@ nav > ul > li > a{
     line-height: 60px;
     text-decoration: none;
     color: white;
-
 }
 
 h1{
@@ -164,68 +160,86 @@ footer{
 /* classes */
 
 .titleKaartjes{
+    background-color: lightslategrey;
     margin-bottom: 80px;
     font-size: 120px;
 }
 
 .hoeveelheidKaartjes{
+    background-color: lightsalmon;
     font-size: 40px;
     margin-bottom: 0px;
-    display: inline;
-    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .kostenKaartjes{
+    background-color: lightblue;
     font-size: 40px;
     margin-top: 0px;
-    display: inline;
-    text-align: right;
+    
+    display: flex;
+    justify-content: right;
+    
 }
 
 .h2Kinderen{
+    background-color: lightpink;
     margin-bottom: 5px;
+    font-size: 35px;
+}
+
+.h2Volwassenen{
+    background-color: lightskyblue;
+    margin-bottom: 5px;
+    font-size: 35px;
+}
+
+.h2Ouderen{
+    background-color: lightseagreen;
+    margin-bottom: 5px;
+    font-size: 35px;
 }
 
 .h2Studenten{
+    background-color: lightgrey;
     margin-bottom: 5px;
-}
-
-.buttonKinderen{
-    width: 50px;
-    height: 50px;
-    background-color: red;
-}
-.buttonVolwassenen{
-    width: 50px;
-    height: 50px;
-    background-color: red;
-}
-.buttonBejaarden{
-    width: 50px;
-    height: 50px;
-    background-color: red;
-}
-.buttonStudenten{
-    width: 50px;
-    height: 50px;
-    background-color: red;
+    font-size: 35px;
 }
 
 /* extra */ 
+
+.Route{
+    margin-bottom: 80px;
+    font-size: 120px;
+}
+
+.Vlak{
+    text-align: center;
+    border: 5px solid;
+    border-radius: 5px;
+    height: 800px;
+}
+
 .leftLine {
-    border: 1px solid rgb(0, 255, 106);
+    border-left: 6px solid limegreen;
     position: fixed;
     position: absolute;
     left: 33%;
-    height: 300px;
+    height: 500px;
+    top: 250px;
 }
 
 .rightLine{
-    border: 1px solid rgb(0, 255, 34);
+    border-right: 6px solid limegreen;
     position: fixed;
     position: absolute;
     left: 66%;
-    height: 300px;
+    height: 500px;
+    top: 250px;
     
 }
 
