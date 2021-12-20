@@ -165,27 +165,6 @@ footer{
     font-size: 120px;
 }
 
-.hoeveelheidKaartjes{
-    background-color: lightsalmon;
-    font-size: 40px;
-    margin-bottom: 0px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.kostenKaartjes{
-    background-color: lightblue;
-    font-size: 40px;
-    margin-top: 0px;
-    
-    display: flex;
-    justify-content: right;
-    
-}
-
 .h2Kinderen{
     background-color: lightpink;
     margin-bottom: 5px;
@@ -210,6 +189,71 @@ footer{
     font-size: 35px;
 }
 
+
+/*table*/ 
+table {
+    margin-left: auto;
+    
+}
+
+table, tr, th{
+    font-size: 40px;
+   
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+/*th class*/
+.thHoeveelheid{
+    border-left: 3px solid black;
+    width: 35vw;
+    height: 3vw;
+}
+
+.thKosten{
+    border-left: 3px solid black;
+    width: 35vw;
+    height: 3vw;
+}
+
+
+
+/*Buttons*/
+.button1KinderenLinks{
+    width: 5vw;
+    height: 5vw;
+}
+.button1KinderenRechts{
+    width: 5vw;
+    height: 5vw;
+}
+.button2VolwassenenLinks{
+    width: 5vw;
+    height: 5vw;
+}
+.button2VolwassenenRechts{
+    width: 5vw;
+    height: 5vw;
+}
+.button3OuderenLinks{
+    width: 5vw;
+    height: 5vw;
+}
+.button3OuderenRechts{
+    width: 5vw;
+    height: 5vw;
+}
+.button4StudentenLinks{
+    width: 5vw;
+    height: 5vw;
+}
+.button4StudentenRechts{
+    width: 5vw;
+    height: 5vw;
+}
+
+
+
 /* extra */ 
 
 .Route{
@@ -224,24 +268,6 @@ footer{
     height: 800px;
 }
 
-.leftLine {
-    border-left: 6px solid limegreen;
-    position: fixed;
-    position: absolute;
-    left: 33%;
-    height: 500px;
-    top: 250px;
-}
-
-.rightLine{
-    border-right: 6px solid limegreen;
-    position: fixed;
-    position: absolute;
-    left: 66%;
-    height: 500px;
-    top: 250px;
-    
-}
 
 .envlag{
     width: 50px;
