@@ -189,70 +189,96 @@ footer{
     font-size: 35px;
 }
 
-
-/*table*/ 
-table {
-    margin-left: auto;
-    
-}
-
-table, tr, th{
-    font-size: 40px;
-   
-    border-spacing: 10px;
-    border-collapse: separate;
-}
-
 /*th class*/
 .thHoeveelheid{
-    border-left: 3px solid black;
     width: 35vw;
     height: 3vw;
 }
 
 .thKosten{
-    border-left: 3px solid black;
     width: 35vw;
     height: 3vw;
+    border-left: 2px solid black;
+}
+
+/*table*/ 
+table {
+    margin-left: auto;
+}
+table, tr {
+    border-left: 2px solid black;
+}
+
+table, tr, th{
+    font-size: 40px;
 }
 
 
-
-/*Buttons*/
+/*Buttons Kaartjes*/
 .button1KinderenLinks{
+    background-color: darkred;
     width: 5vw;
     height: 5vw;
+    border-radius: 5px;
+    font-size: 2vw;
+    text-align: center;
 }
 .button1KinderenRechts{
+    background-color: darkred;
     width: 5vw;
     height: 5vw;
+    border-radius: 5px;
+    font-size: 2vw;
+    text-align: center;
 }
 .button2VolwassenenLinks{
+    background-color: darkred;
     width: 5vw;
     height: 5vw;
+    border-radius: 10px;
+    font-size: 2vw;
+    text-align: center;
 }
 .button2VolwassenenRechts{
+    background-color: darkred;
     width: 5vw;
     height: 5vw;
+    border-radius: 10px;
+    font-size: 2vw;
+    text-align: center;
 }
 .button3OuderenLinks{
+    background-color: darkred;
     width: 5vw;
     height: 5vw;
+    border-radius: 5px;
+    font-size: 2vw;
+    text-align: center;
 }
 .button3OuderenRechts{
+    background-color: darkred;
     width: 5vw;
     height: 5vw;
+    border-radius: 5px;
+    font-size: 2vw;
+    text-align: center;
 }
 .button4StudentenLinks{
+    background-color: darkred;
     width: 5vw;
     height: 5vw;
+    border-radius: 5px;
+    font-size: 2vw;
+    text-align: center;
 }
 .button4StudentenRechts{
+    background-color: darkred;
     width: 5vw;
     height: 5vw;
+    border-radius: 5px;
+    font-size: 2vw;
+    text-align: center;
 }
-
-
 
 /* extra */ 
 
