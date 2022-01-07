@@ -258,11 +258,12 @@ footer{
     animation-name: fotoSlider;
     animation-duration: 30s;
     animation-iteration-count: infinite;
+    border-radius: 10px;
 }
 
 @keyframes fotoSlider {
     0%{
-        opacity: 0.1;
+        opacity: 0.02;
         background-image: url(img/vanghogvoorpagina.jpg);
     }
     10%{
@@ -270,11 +271,11 @@ footer{
         background-image: url(img/vanghogvoorpagina.jpg);
     }
     19%{
-        opacity: 0;
+        opacity: 0.02;
         background-image: url(img/vanghogvoorpagina.jpg);
     }
     20%{
-        opacity: 0;
+        opacity: 0.02;
         background-image: url(img/slider2.jpeg);
     } 
     30%{
@@ -282,11 +283,11 @@ footer{
         background-image: url(img/slider2.jpeg);
     } 
     39%{
-        opacity: 0;
+        opacity: 0.02;
         background-image: url(img/slider2.jpeg);
     } 
     40%{
-        opacity: 0;
+        opacity: 0.02;
         background-image: url(img/slider3.jpg);
     }
     50%{
@@ -294,11 +295,11 @@ footer{
         background-image: url(img/slider3.jpg);
     }
     59%{
-        opacity: 0;
+        opacity: 0.02;
         background-image: url(img/slider3.jpg);
     }
     60%{
-        opacity: 0;
+        opacity: 0.02;
         background-image: url(img/slider4.jpg);
     }
     70%{
@@ -306,11 +307,11 @@ footer{
         background-image: url(img/slider4.jpg);
     }
     79%{
-        opacity: 0;
+        opacity: 0.02;
         background-image: url(img/slider4.jpg);
     }
     80%{
-        opacity: 0;
+        opacity: 0.02;
         background-image: url(img/slider5.jpg);
     }
     90%{
@@ -318,11 +319,11 @@ footer{
         background-image: url(img/slider5.jpg);
     }
     99%{
-        opacity: 0;
+        opacity: 0.02;
         background-image: url(img/slider5.jpg);
     }
     100%{
-        opacity: 0;
+        opacity: 0.02;
         background-image: url(img/vanghogvoorpagina.jpg);
     }
 }
