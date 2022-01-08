@@ -150,133 +150,113 @@ footer{
 }
 
 /* classes kaartjes */
+
+.bodyKaartjes{
+    background-image: linear-gradient(to bottom right, darkorange, rgb(255, 153, 0), rgb(255, 196, 0), rgb(224, 183, 1));
+}
 .titleKaartjes{
-    background-color: lightslategrey;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
     font-size: 120px;
 }
 
-.h2Kinderen{
-    background-color: lightpink;
-    margin-bottom: 5px;
-    font-size: 35px;
+/*h2 en h3 sections*/ 
+.h2Personen{
+    font-family: 'McLaren', cursive;
+    text-align: center;
+    font-size: 60px;
+    margin: 0 auto;
 }
 
-.h2Volwassenen{
-    background-color: lightskyblue;
-    margin-bottom: 5px;
-    font-size: 35px;
-}
-
-.h2Ouderen{
-    background-color: lightseagreen;
-    margin-bottom: 5px;
-    font-size: 35px;
-}
-
-.h2Studenten{
-    background-color: lightgrey;
-    margin-bottom: 5px;
-    font-size: 35px;
-}
-
-/*th class*/
-.thHoeveelheid{
-    width: 35vw;
-    height: 3vw;
-}
-
-.thKosten{
-    width: 35vw;
-    height: 3vw;
-    border-left: 2px solid black;
-}
-
-/*table*/ 
-table {
-    margin-left: auto;
-}
-table, tr {
-    border-left: 2px solid black;
-}
-
-table, tr, th{
+.h3Personen{
+    font-family: 'McLaren', cursive;
     font-size: 40px;
+    text-align: center;
+
+    display: block;
+    margin: 75px;
 }
+
+
+/*Sections*/ 
+.HoofdSection{
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.secK{
+    margin: 0 auto;
+    border-left: 2px solid black;
+    height: 650px;
+    width: 600px;
+}
+
+.secH{
+    margin: 0 auto;
+    height: 650px;
+    width: 600px;
+}
+
+.secPersonen{
+    border-right: 2px solid black;
+    margin: 0 auto;
+    height: 650px;
+    width: 600px;
+}
+
 
 /*Buttons Kaartjes*/
 .button1KinderenLinks{
-    background-color: darkred;
+    background-color: bisque;
     width: 5vw;
     height: 5vw;
     border-radius: 10px;
     font-size: 2vw;
     text-align: center;
+    cursor: pointer;
+
+    margin-top: 45px;
+    margin-right: 412px;
 }
+
 .button1KinderenRechts{
-    background-color: darkred;
+    background-color: bisque;
     width: 5vw;
     height: 5vw;
     border-radius: 10px;
     font-size: 2vw;
     text-align: center;
-    position: absolute;
-    left: 1075px;
+    cursor: pointer;
 }
-.button2VolwassenenLinks{
-    background-color: darkred;
-    width: 5vw;
-    height: 5vw;
-    border-radius: 10px;
-    font-size: 2vw;
-    text-align: center;
-}
-.button2VolwassenenRechts{
-    background-color: darkred;
-    width: 5vw;
-    height: 5vw;
-    border-radius: 10px;
-    font-size: 2vw;
-    text-align: center;
-    position: absolute;
-    left: 1075px;
-}
-.button3OuderenLinks{
-    background-color: darkred;
-    width: 5vw;
-    height: 5vw;
-    border-radius: 10px;
-    font-size: 2vw;
-    text-align: center;
-}
-.button3OuderenRechts{
-    background-color: darkred;
-    width: 5vw;
-    height: 5vw;
-    border-radius: 10px;
-    font-size: 2vw;
-    text-align: center;
-    position: absolute;
-    left: 1075px;
-}
-.button4StudentenLinks{
-    background-color: darkred;
-    width: 5vw;
-    height: 5vw;
-    border-radius: 10px;
-    font-size: 2vw;
-    text-align: center;
-}
-.button4StudentenRechts{
-    background-color: darkred;
-    width: 5vw;
-    height: 5vw;
-    border-radius: 10px;
-    font-size: 2vw;
-    text-align: center;
-    position: absolute;
-    left: 1075px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* extra */ 
 .Route{
@@ -290,7 +270,6 @@ table, tr, th{
     border-radius: 5px;
     height: 800px;
     font-size: 5vw;
-   
 }
 
 .envlag{

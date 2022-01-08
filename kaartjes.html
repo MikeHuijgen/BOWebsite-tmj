@@ -7,11 +7,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <title>Kaartjes</title>
 </head>
 
-<body>
+<body class="bodyKaartjes">
     <header>
         <nav>
             <ul>
@@ -28,64 +33,44 @@
 
     <h1 class="titleKaartjes">Kaartjes</h1>
 
-    <table>
-        <tr>
-            <th class="thHoeveelheid">Hoeveelheid</th>
-            <th class="thKosten">Kosten</th>
-        </tr>
-        <tr>
-            <td>
-                <button class="button1KinderenLinks" onclick="Button1L">⇦</button>
 
-                <button class="button1KinderenRechts" onclick="Button1R">⇨</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button class="button2VolwassenenLinks" onclick="Button2L">⇦</button>
+    <div class="HoofdSection">
 
-                <button class="button2VolwassenenRechts" onclick="Button2R">⇨</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button class="button3OuderenLinks" onclick="Button3L">⇦</button>
+        <section class="secPersonen">
+            <h2 class="h2Personen">Personen</h2>
+            <h3 class="h3Personen">Kinderen</h3>
+            <h3 class="h3Personen">Volwassenen</h3>
+            <h3 class="h3Personen">Ouderen</h3>
+            <h3 class="h3Personen">Studenten</h3>
+        </section>
 
-                <button class="button3OuderenRechts" onclick="Button3R">⇨</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button class="button4StudentenLinks" onclick="Button4L">⇦</button>
+        <section class="secH">
+            <h2 class="h2Personen">Hoeveelheid</h2>
 
-                <button class="button4StudentenRechts" onclick="Button4R">⇨</button>
-            </td>
-        </tr>
-    </table>
+            <button class="button1KinderenLinks" onclick="Button1L">⇦</button>
+            <button class="button1KinderenRechts" onclick="Button1R">⇨</button>
 
-    <h2 class="h2Kinderen">Kinderen</h2>
-    <figure>
-        <figcaption>
-            Kinderen onder de 12 krijgen 30% korting.
-        </figcaption>
-    </figure>
-    <h2 class="h2Volwassenen">Volwassenen</h2>
-    <h2 class="h2Ouderen">Ouderen</h2>
-    <figure>
-        <figcaption>
-            Ouderen boven de 70 krijgen 30% korting.
-        </figcaption>
-    </figure>
-    <h2 class="h2Studenten">Studenten</h2>
-    <figure>
-        <figcaption>
-            Studenten met een Studentenpas krijgen 40% korting.
-        </figcaption>
-    </figure>
+            <button class="button1KinderenLinks" onclick="Button1L">⇦</button>
+            <button class="button1KinderenRechts" onclick="Button1R">⇨</button>
+
+            <button class="button1KinderenLinks" onclick="Button1L">⇦</button>
+            <button class="button1KinderenRechts" onclick="Button1R">⇨</button>
+
+            <button class="button1KinderenLinks" onclick="Button1L">⇦</button>
+            <button class="button1KinderenRechts" onclick="Button1R">⇨</button>
+        </section>
+
+        <section class="secK">
+            <h2 class="h2Personen">Kosten</h2>
+        </section>
+    </div>
+
 
     <footer>
 
     </footer>
+
+    <script src="js.js"></script>
 </body>
 
 </html>
