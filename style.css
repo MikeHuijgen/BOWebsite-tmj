@@ -72,11 +72,8 @@ footer{
     background-color:black;
     width: 100%;
     height: 300px;
-
-
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
+    grid-template-columns: 1fr 1fr;
 }
 
 /* id */
@@ -85,12 +82,8 @@ footer{
     height: 500px;
     background-color: blueviolet;
     background-image: linear-gradient(to bottom right, darkorange, rgb(255, 153, 0), rgb(255, 196, 0), rgb(224, 183, 1));
-
-
-    margin-bottom: 3px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
 
 /* class */
@@ -140,8 +133,7 @@ footer{
 .backimg{
     width: 100%;
     height: 700px;
-    margin-bottom: 0px;
-
+    margin-bottom: 0;
 }
 
 .logo{
@@ -207,7 +199,8 @@ footer{
 }
 
 .midsectionleft{
-    border: 5px solid black;
+    border: 1px solid black;
+    border-radius: 10px;
     text-align: center;
     height: 400px;
     align-self: center;
@@ -217,7 +210,8 @@ footer{
 }
 
 .midsectionright{
-    border: 5px solid black;
+    border-radius: 10px;
+    border: 1px solid black;
     display: flex;
     align-items: center;
     height: 400px;
@@ -230,21 +224,20 @@ footer{
 .footerh2{
     color: white;
     display: inline;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
 }
 
 .footersec{
-    border: 1px solid red;
     height: 250px;
-    width: 225px;
-    margin: 0 auto;
+    width: 350px;
     margin: auto;
     text-align: center;
+    justify-content: center;
+    margin-top: 25px;
 }
 
 .gsP{
-
     height: 340px;
     margin-top: 10px;
     text-align: center;
@@ -330,11 +323,14 @@ footer{
 
 .footerp{
     color: white;
-    margin: 8px 0px;
     margin-top: 10px;
     font-size: 15px;
-    text-align: left;
-    margin-left: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.infoF{
+    margin-top: 10px;
 }
 
 .tourDiv{
@@ -357,3 +353,75 @@ footer{
     text-align: center;
 }
 
+.testimonials{
+    padding-bottom: 40px;
+    background-image: linear-gradient(to bottom left, rgb(224, 183, 1), rgb(255, 196, 0), rgb(255, 153, 0), darkorange);
+    color: black;
+    text-align: center;
+    display: grid;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.testimonail{
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.testimonail > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.stars{
+    color: black;
+}
+
+.reviewh2{
+    font-size: 50px;
+}
+
+h3{
+    margin: 10px;
+}
+
+@media screen and (max-width:960px) {
+    .col{
+        flex: 100%;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .col{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
