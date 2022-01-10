@@ -47,21 +47,32 @@
         <section class="secH">
             <h2 class="h2Personen">Hoeveelheid</h2>
 
-            <button class="button1KinderenLinks" onclick="Button1L">⇦</button>
-            <button class="button1KinderenRechts" onclick="Button1R">⇨</button>
+            <button id="button1KinderenLinks">⇦</button>
+            <span id="js--aantal">0</span>
+            <button id="button1KinderenRechts">⇨</button>
 
-            <button class="button1KinderenLinks" onclick="Button1L">⇦</button>
-            <button class="button1KinderenRechts" onclick="Button1R">⇨</button>
 
-            <button class="button1KinderenLinks" onclick="Button1L">⇦</button>
-            <button class="button1KinderenRechts" onclick="Button1R">⇨</button>
 
-            <button class="button1KinderenLinks" onclick="Button1L">⇦</button>
-            <button class="button1KinderenRechts" onclick="Button1R">⇨</button>
+
+
+            <button id="button1KinderenLinks" onclick="Button2L">⇦</button>
+            <span>0</span>
+            <button id="button1KinderenRechts" onclick="Button2R">⇨</button>
+
+            <button id="button1KinderenLinks" onclick="Button3L">⇦</button>
+            <span>0</span>
+            <button id="button1KinderenRechts" onclick="Button3R">⇨</button>
+
+            <button id="button1KinderenLinks" onclick="Button4L">⇦</button>
+            <span>0</span>
+            <button id="button1KinderenRechts" onclick="Button4R">⇨</button>
         </section>
 
         <section class="secK">
             <h2 class="h2Personen">Kosten</h2>
+
+            <h4> Prijs € <span id="js--kosten" class="totaal">0</span></h4>
+        
         </section>
     </div>
 
@@ -70,7 +81,7 @@
 
     </footer>
 
-    <script src="js.js"></script>
+    <script src="js.js" defer></script>
 </body>
 
 </html>
