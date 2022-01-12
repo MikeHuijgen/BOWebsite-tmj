@@ -37,10 +37,10 @@ min0.onclick = function () {
 function berekenPrijs0(oprater) {
     var getal = parseInt(kosten0.innerText);
     if (oprater == "+") {
-        kosten0.innerText = getal + 5;
+        kosten0.innerText = getal + 0;
     }
     if (oprater == "-") {
-        kosten0.innerText = getal - 5;
+        kosten0.innerText = getal - 0;
     }
 }
 
@@ -63,10 +63,10 @@ min1.onclick = function () {
 function berekenPrijs1(oprater) {
     var getal = parseInt(kosten1.innerText);
     if (oprater == "+") {
-        kosten1.innerText = getal + 5;
+        kosten1.innerText = getal + 19;
     }
     if (oprater == "-") {
-        kosten1.innerText = getal - 5;
+        kosten1.innerText = getal - 19;
     }
 }
 
@@ -89,10 +89,10 @@ min2.onclick = function () {
 function berekenPrijs2(oprater) {
     var getal = parseInt(kosten2.innerText);
     if (oprater == "+") {
-        kosten2.innerText = getal + 5;
+        kosten2.innerText = getal + 19;
     }
     if (oprater == "-") {
-        kosten2.innerText = getal - 5;
+        kosten2.innerText = getal - 19;
     }
 }
 
@@ -115,10 +115,10 @@ min3.onclick = function () {
 function berekenPrijs3(oprater) {
     var getal = parseInt(kosten3.innerText);
     if (oprater == "+") {
-        kosten3.innerText = getal + 5;
+        kosten3.innerText = getal + 10;
     }
     if (oprater == "-") {
-        kosten3.innerText = getal - 5;
+        kosten3.innerText = getal - 10;
     }
 }
 
