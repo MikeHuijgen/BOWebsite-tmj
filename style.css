@@ -1,4 +1,3 @@
-
 *{
     padding:0;
     margin:0;
@@ -31,7 +30,6 @@ nav > ul{
     align-items: center;
     justify-content: space-evenly;
     gap: 30px;
-
 }
 
 nav > ul > li{
@@ -47,7 +45,6 @@ nav > ul > li > a{
     line-height: 60px;
     text-decoration: none;
     color: white;
-
 }
 
 h1{
@@ -64,10 +61,11 @@ footer{
     background-color:black;
     width: 100%;
     height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* id */
-
 #grad1{
     height: 500px;
     background-color: blueviolet;
@@ -75,15 +73,12 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
 /* class */
-
 .h1{
     position: absolute;
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     font-size: 500%;
 }
 
@@ -122,7 +117,7 @@ footer{
 .backimg{
     width: 100%;
     height: 700px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 .logo{
@@ -143,43 +138,242 @@ footer{
     margin-top: 10%;
 }
 
-/* classes */
 
+/*h2 en h3 sections*/ 
+.h2Personen{
+    font-family: 'McLaren', cursive;
+    text-align: center;
+    font-size: 60px;
+    margin: 0 auto;
+}
+
+.h3Personen{
+    font-family: 'McLaren', cursive;
+    font-size: 40px;
+    text-align: center;
+
+    display: block;
+    margin: 75px;
+}
+
+
+/*Sections*/ 
+.HoofdSection{
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.secK{
+    margin: 0 auto;
+    border-left: 2px solid black;
+    height: 650px;
+    width: 600px;
+}
+
+.secH{
+    margin: 0 auto;
+    height: 650px;
+    width: 600px;
+}
+
+.secPersonen{
+    border-right: 2px solid black;
+    margin: 0 auto;
+    height: 650px;
+    width: 600px;
+}
+
+
+
+/* classes kaartjes */
+.bodyKaartjes{
+    background-image: linear-gradient(to bottom right, darkorange, rgb(255, 153, 0), rgb(255, 196, 0), rgb(224, 183, 1));
+}
 .titleKaartjes{
-    margin-bottom: 80px;
+    margin-bottom: 70px;
+    font-size: 120px;
 }
 
-.hoeveelheidKaartjes{
+/*Buttons Kaartjes*/
+#button1KinderenLinks{
+    background-color: bisque;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 10px;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+
+    margin-top: 45px;
+    margin-right: 205px;
+}
+
+#button1KinderenRechts{
+    background-color: bisque;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 10px;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 45px;
+}
+
+#button2KinderenLinks{
+    background-color: bisque;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 10px;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+
+    margin-top: 45px;
+    margin-right: 205px;
+}
+
+#button2KinderenRechts{
+    background-color: bisque;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 10px;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 45px;
+}
+
+#button3KinderenLinks{
+    background-color: bisque;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 10px;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+
+    margin-top: 45px;
+    margin-right: 205px;
+}
+
+#button3KinderenRechts{
+    background-color: bisque;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 10px;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 45px;
+}
+#button4KinderenLinks{
+    background-color: bisque;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 10px;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+
+    margin-top: 45px;
+    margin-right: 205px;
+}
+
+#button4KinderenRechts{
+    background-color: bisque;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 10px;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 45px;
+}
+
+.kosten{
+    font-family: 'McLaren', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+#js--aantal1{
+    font-family: 'McLaren', cursive;
+    margin-right: 185px;
+    font-size: 30px;
+}
+
+#js--aantal2{
+    font-family: 'McLaren', cursive;
+    margin-right: 185px;
+    font-size: 30px;
+}
+
+#js--aantal3{
+    font-family: 'McLaren', cursive;
+    margin-right: 185px;
+    font-size: 30px;
+}
+
+#js--aantal4{
+    font-family: 'McLaren', cursive;
+    margin-right: 185px;
+    font-size: 30px;
+}
+
+.prijs{
+    font-family: 'McLaren', cursive;
+    font-size: 40px;
+    margin: 78px;
+    margin-left:215px;
+}
+
+@media screen and (max-width: 800px) {
+    .titleKaartjes{
+        
+        margin-bottom: 70px;
+        font-size: 60px;
+        width: 100%;
+    }
+    .h2Personen{
+        font-family: 'McLaren', cursive;
+        text-align: center;
+        font-size: 30px;
+        margin: 0 auto;
+        width: 100%;
+    }
     
-    display: inline;
-    margin-bottom: 0px;
+    .h3Personen{
+        font-family: 'McLaren', cursive;
+        font-size: 20px;
+        text-align: center;
+        display: block;
+        margin: 75px;
+        
+    }
 }
 
-.kostenKaartjes{
-    display: inline;
-    margin-top: 0px;
+@media  screen and (max-width: 1000px) {
+    
 }
-
-.h2Kinderen{
-    margin-bottom: 5px;
-}
-
-.h2Studenten{
-    margin-bottom: 5px;
-}
-
 
 /* extra */ 
-.vl {
-    border-right: 2px solid black;
-    right: 50%;
+.Route{
+    margin-bottom: 80px;
+    font-size: 120px;
+}
+
+.Vlak{
+    text-align: center;
+    border: 5px solid;
+    border-radius: 5px;
     height: 800px;
-    position: absolute;
-    margin-left: -3px;
-    top: 0;
-    margin: 10px;
-    margin-top: 15px;
-    margin-left: 150px;
+    font-size: 5vw;
 }
 
 .kaartbutton{
@@ -226,6 +420,7 @@ footer{
     margin-top: 25px;
 }
 
+
 .footerDiv{
     width: 80vw;
     margin: 0 auto;
@@ -234,7 +429,9 @@ footer{
     grid-template-columns: 1fr 1fr;
 }
 
+
 .gsP{
+    font-family: 'McLaren', cursive;
     height: 340px;
     margin-top: 10px;
     text-align: center;
