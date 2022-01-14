@@ -74,6 +74,7 @@ footer{
     background-image: linear-gradient(to bottom right, darkorange, rgb(255, 153, 0), rgb(255, 196, 0), rgb(224, 183, 1));
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 100vw;
 }
 
 /* class */
@@ -415,6 +416,10 @@ h3{
         flex: 100%;
         max-width: 80%;
     }
+
+    h1{
+        font-size: 100px;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -422,4 +427,5 @@ h3{
         flex: 100%;
         max-width: 100%;
     }
+
 }
