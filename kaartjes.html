@@ -1,55 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
+
 <head>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
-    <title>Afgfgyefiyweg</title>
+    <title>Kaartjes</title>
 </head>
-<body>
+
+<body class="bodyKaartjes">
     <header>
         <nav>
             <ul>
                 <li> <img class="logo" src="img/VanGhogLogo.png" alt="Het van Gogh museum"></li>
                 <li> <a href="index.html">Home</a></li>
-                <li> <a href="art.html">Art</a></li>
+                <li> <a href="Schilderijen.html">Schilderijen</a></li>
                 <li> <a href="interactief.html">Interactief</a></li>
-                <li  class="active"> <a class="kaartbutton" href="kaartjes.html">Kaartjes</a></li>
-                <li> <a href="index.html"><img class="nlvlag" src="img/NLflag.jpg" alt="Nederlandse vlag"></a></li>
-                <li> <a href="ENhome.html"><img class="envlag" src="img/ENFlag.jpg" alt="Engelse vlag"></a></li>
+                <li class="active"> <a class="kaartbutton" href="kaartjes.html">Kaartjes</a></li>
+                <li> <a href="index.html"><img class="nlvlag" src="img/NLflag.png" alt="Nederlandse vlag"></a></li>
+                <li> <a href="HomeEng.html"><img class="envlag" src="img/ENFlag.gif" alt="Engelse vlag"></a></li>
             </ul>
         </nav>
     </header>
     <main>
         <h1 class="titleKaartjes">Kaartjes</h1>
+        <div class="HoofdSection">
 
-        <h2 class="hoeveelheidKaartjes">Hoeveelheid</h2> 
-        <h2 class="kostenKaartjes">Kosten</h2>
-    
-        <h2 class="h2Kinderen">Kinderen</h2>
-        <figure>
-            <figcaption>
-                Kinderen onder de 8 zijn gratis.
-            </figcaption>
-        </figure>
-       
-        <h2>Volwassenen</h2>
-        <h2>Bejaarden</h2>
-        <h2 class="h2Studenten">Studenten</h2> 
-        <figure>
-            <figcaption>
-                Studenten met een Studentenpas krijgen 40% korting. 
-            </figcaption>  
-        </figure>
-    
-    
-        <div class="vl"></div>  
-    
+        <section class="secPersonen">
+            <h2 class="h2Personen">Personen</h2>
+            <h3 class="h3Personen">Kinderen</h3>
+            <h3 class="h3Personen">Volwassenen</h3>
+            <h3 class="h3Personen">Ouderen</h3>
+            <h3 class="h3Personen">Studenten</h3>
+        </section>
+
+        <section class="secH">
+            <h2 class="h2Personen">Hoeveelheid</h2>
+
+            <button id="button1KinderenLinks">⇦</button>
+            <span id="js--aantal1">0</span>
+            <button id="button1KinderenRechts">⇨</button>
+
+            <button id="button2KinderenLinks">⇦</button>
+            <span id="js--aantal2">0</span>
+            <button id="button2KinderenRechts">⇨</button>
+
+            <button id="button3KinderenLinks">⇦</button>
+            <span id="js--aantal3">0</span>
+            <button id="button3KinderenRechts">⇨</button>
+
+            <button id="button4KinderenLinks">⇦</button>
+            <span id="js--aantal4">0</span>
+            <button id="button4KinderenRechts">⇨</button>
+        </section>
+
+        <section class="secK">
+            <h2 class="h2Personen">Kosten</h2>
+            <h4 class="prijs"> Prijs € <span id="js--kosten1" class="totaal">0</span></h4>
+            <h4 class="prijs"> Prijs € <span id="js--kosten2" class="totaal">0</span></h4>
+            <h4 class="prijs"> Prijs € <span id="js--kosten3" class="totaal">0</span></h4>
+            <h4 class="prijs"> Prijs € <span id="js--kosten4" class="totaal">0</span></h4>
+        </section>
+    </div>
     </main>
     <footer>
         <div class="footerDiv">
@@ -77,9 +97,8 @@
             </section>
         </div>
     </footer>
+
+    <script src="js.js" defer></script>
 </body>
 
 </html>
-
-</html>
-
