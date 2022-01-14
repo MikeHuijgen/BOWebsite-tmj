@@ -624,8 +624,7 @@ h3{
         flex: 100%;
         max-width: 100%;
     }
-
-
+}
 /* Job class */
 
 .tekstVergroten{
@@ -663,5 +662,4 @@ td div{
 
 td img{
     position: absolute;
-
 }
