@@ -37,10 +37,10 @@ min0.onclick = function () {
 function berekenPrijs0(oprater) {
     var getal = parseInt(kosten0.innerText);
     if (oprater == "+") {
-        kosten0.innerText = getal + 0;
+        kosten0.innerText = getal + 1;
     }
     if (oprater == "-") {
-        kosten0.innerText = getal - 0;
+        kosten0.innerText = getal - 1;
     }
 }
 
