@@ -3,6 +3,7 @@
     margin:0;
     box-sizing: border-box;
 }
+
 body{
     margin: 0px;
     margin-top: 0px;
@@ -16,7 +17,6 @@ header{
 }
 
 nav{
-    width: 60vw;
     width: 80vw;
     height: 60px;
     margin: 0 auto;
@@ -48,16 +48,8 @@ nav > ul > li > a{
 }
 
 h1{
-    font-weight: 500;
-    font-display: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 120px;
-
-    font-size: 20px;
-}
-
-h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 0px ;
 }
 
@@ -70,8 +62,7 @@ footer{
     width: 100%;
     height: 300px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
+    grid-template-columns: 1fr 1fr;
 }
 
 /* id */
@@ -79,10 +70,9 @@ footer{
     height: 500px;
     background-color: blueviolet;
     background-image: linear-gradient(to bottom right, darkorange, rgb(255, 153, 0), rgb(255, 196, 0), rgb(224, 183, 1));
-
-    margin-bottom: 3px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 100vw;
 }
 /* class */
 .h1{
@@ -98,7 +88,7 @@ footer{
     text-align: center;
     align-items: center;
     color: white;
-    margin-bottom: 0px;
+    height: 700px;
 }
 
 .active{
@@ -388,20 +378,14 @@ footer{
     font-size: 5vw;
 }
 
-.envlag{
-    width: 50px;
-    height: 30px;
-    margin: 10px;
-    margin-top: 15px;
-}
-
 .kaartbutton{
     color: rgb(224, 183, 1);
     border: 1px solid rgb(255, 153, 0);
 }
 
 .midsectionleft{
-    border: 5px solid black;
+    border: 1px solid black;
+    border-radius: 10px;
     text-align: center;
     height: 400px;
     align-self: center;
@@ -411,8 +395,10 @@ footer{
 }
 
 .midsectionright{
-    border: 5px solid black;
-    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
     height: 400px;
     align-self: center;
     justify-content: center;
@@ -423,18 +409,28 @@ footer{
 .footerh2{
     color: white;
     display: inline;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
 }
 
 .footersec{
-    border: 1px solid red;
     height: 250px;
-    width: 225px;
-    margin: 0 auto;
+    width: 350px;
     margin: auto;
     text-align: center;
+    justify-content: center;
+    margin-top: 25px;
 }
+
+
+.footerDiv{
+    width: 80vw;
+    margin: 0 auto;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 
 .gsP{
     font-family: 'McLaren', cursive;
@@ -444,14 +440,213 @@ footer{
     padding: 30px;
 }
 
-.slideimg{
-    padding: 22px;
+.slidefig{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    animation-name: fotoSlider;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+@keyframes fotoSlider {
+    0%{
+        opacity: 0.02;
+        background-image: url(img/vanghogvoorpagina.jpg);
+    }
+    10%{
+        opacity: 1;
+        background-image: url(img/vanghogvoorpagina.jpg);
+    }
+    19%{
+        opacity: 0.02;
+        background-image: url(img/vanghogvoorpagina.jpg);
+    }
+    20%{
+        opacity: 0.02;
+        background-image: url(img/slider2.jpeg);
+    } 
+    30%{
+        opacity: 1;
+        background-image: url(img/slider2.jpeg);
+    } 
+    39%{
+        opacity: 0.02;
+        background-image: url(img/slider2.jpeg);
+    } 
+    40%{
+        opacity: 0.02;
+        background-image: url(img/slider3.jpg);
+    }
+    50%{
+        opacity: 1;
+        background-image: url(img/slider3.jpg);
+    }
+    59%{
+        opacity: 0.02;
+        background-image: url(img/slider3.jpg);
+    }
+    60%{
+        opacity: 0.02;
+        background-image: url(img/slider4.jpg);
+    }
+    70%{
+        opacity: 1;
+        background-image: url(img/slider4.jpg);
+    }
+    79%{
+        opacity: 0.02;
+        background-image: url(img/slider4.jpg);
+    }
+    80%{
+        opacity: 0.02;
+        background-image: url(img/slider5.jpg);
+    }
+    90%{
+        opacity: 1;
+        background-image: url(img/slider5.jpg);
+    }
+    99%{
+        opacity: 0.02;
+        background-image: url(img/slider5.jpg);
+    }
+    100%{
+        opacity: 0.02;
+        background-image: url(img/vanghogvoorpagina.jpg);
+    }
 }
 
 .footerp{
     color: white;
-    margin: 8px 0px;
     margin-top: 10px;
     font-size: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.infoF{
+    margin-top: 10px;
+}
+
+.tourDiv{
+    margin: 0 auto;
+    height: 1000px;
+    border: 1px solid black;
+    width: 80vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.artDiv{
+    margin: 0 auto;
+    height: 1000px;
+    border: 1px solid black;
+    width: 80vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.testimonials{
+    padding-bottom: 40px;
+    background-image: linear-gradient(to bottom left, rgb(224, 183, 1), rgb(255, 196, 0), rgb(255, 153, 0), darkorange);
+    color: black;
+    text-align: center;
+    display: grid;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.testimonail{
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    height: 350px;
+}
+
+.testimonail > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.stars{
+    color: black;
+}
+
+.reviewh2{
+    font-size: 50px;
+}
+
+h3{
+    margin: 10px;
+}
+
+@media screen and (max-width:960px) {
+    .col{
+        flex: 100%;
+        max-width: 80%;
+    }
+
+    h1{
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .col{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+/* Job class */
+
+.tekstVergroten{
+    font-size: 20px;
+}
+
+th, td{
     text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+td div{
+    overflow:hidden; 
+    width:100px; 
+    height:100px; 
+    padding: 20px;
+}
+
+td img{
+    position: absolute;
 }
