@@ -1,9 +1,9 @@
-
 *{
     padding:0;
     margin:0;
     box-sizing: border-box;
 }
+
 body{
     margin: 0px;
     margin-top: 0px;
@@ -17,11 +17,7 @@ header{
 }
 
 nav{
-
-    width: 60vw;
-
     width: 80vw;
-
     height: 60px;
     margin: 0 auto;
 }
@@ -34,7 +30,6 @@ nav > ul{
     align-items: center;
     justify-content: space-evenly;
     gap: 30px;
-
 }
 
 nav > ul > li{
@@ -50,19 +45,11 @@ nav > ul > li > a{
     line-height: 60px;
     text-decoration: none;
     color: white;
-
 }
 
 h1{
-    font-weight: 500 bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 120px;
-
-    font-size: 20px;
-}
-
-h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 0px ;
 }
 
@@ -70,41 +57,29 @@ h2{
     margin-top: 10px;
 }
 
-
-
 footer{
     background-color:black;
     width: 100%;
     height: 300px;
-
-
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
+    grid-template-columns: 1fr 1fr;
 }
 
 /* id */
-
 #grad1{
     height: 500px;
     background-color: blueviolet;
     background-image: linear-gradient(to bottom right, darkorange, rgb(255, 153, 0), rgb(255, 196, 0), rgb(224, 183, 1));
-
-
-    margin-bottom: 3px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    width: 100vw;
 }
-
 /* class */
-
 .h1{
     position: absolute;
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     font-size: 500%;
 }
 
@@ -113,8 +88,7 @@ footer{
     text-align: center;
     align-items: center;
     color: white;
-    margin-bottom: 0px;
-
+    height: 700px;
 }
 
 .active{
@@ -145,7 +119,6 @@ footer{
     width: 100%;
     height: 700px;
     margin-bottom: 0px;
-
 }
 
 .logo{
@@ -166,50 +139,242 @@ footer{
     margin-top: 10%;
 }
 
-/* classes */
 
+/*h2 en h3 sections*/ 
+.h2Personen{
+    font-family: 'McLaren', cursive;
+    text-align: center;
+    font-size: 60px;
+    margin: 0 auto;
+}
+
+.h3Personen{
+    font-family: 'McLaren', cursive;
+    font-size: 40px;
+    text-align: center;
+
+    display: block;
+    margin: 75px;
+}
+
+
+/*Sections*/ 
+.HoofdSection{
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.secK{
+    margin: 0 auto;
+    border-left: 2px solid black;
+    height: 650px;
+    width: 600px;
+}
+
+.secH{
+    margin: 0 auto;
+    height: 650px;
+    width: 600px;
+}
+
+.secPersonen{
+    border-right: 2px solid black;
+    margin: 0 auto;
+    height: 650px;
+    width: 600px;
+}
+
+
+
+/* classes kaartjes */
+.bodyKaartjes{
+    background-image: linear-gradient(to bottom right, darkorange, rgb(255, 153, 0), rgb(255, 196, 0), rgb(224, 183, 1));
+}
 .titleKaartjes{
-    margin-bottom: 80px;
+    margin-bottom: 70px;
+    font-size: 120px;
 }
 
-.hoeveelheidKaartjes{
+/*Buttons Kaartjes*/
+#button1KinderenLinks{
+    background-color: bisque;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 10px;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+
+    margin-top: 45px;
+    margin-right: 205px;
+}
+
+#button1KinderenRechts{
+    background-color: bisque;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 10px;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 45px;
+}
+
+#button2KinderenLinks{
+    background-color: bisque;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 10px;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+
+    margin-top: 45px;
+    margin-right: 205px;
+}
+
+#button2KinderenRechts{
+    background-color: bisque;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 10px;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 45px;
+}
+
+#button3KinderenLinks{
+    background-color: bisque;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 10px;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+
+    margin-top: 45px;
+    margin-right: 205px;
+}
+
+#button3KinderenRechts{
+    background-color: bisque;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 10px;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 45px;
+}
+#button4KinderenLinks{
+    background-color: bisque;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 10px;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+
+    margin-top: 45px;
+    margin-right: 205px;
+}
+
+#button4KinderenRechts{
+    background-color: bisque;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 10px;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 45px;
+}
+
+.kosten{
+    font-family: 'McLaren', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+#js--aantal1{
+    font-family: 'McLaren', cursive;
+    margin-right: 185px;
+    font-size: 30px;
+}
+
+#js--aantal2{
+    font-family: 'McLaren', cursive;
+    margin-right: 185px;
+    font-size: 30px;
+}
+
+#js--aantal3{
+    font-family: 'McLaren', cursive;
+    margin-right: 185px;
+    font-size: 30px;
+}
+
+#js--aantal4{
+    font-family: 'McLaren', cursive;
+    margin-right: 185px;
+    font-size: 30px;
+}
+
+.prijs{
+    font-family: 'McLaren', cursive;
+    font-size: 40px;
+    margin: 78px;
+    margin-left:215px;
+}
+
+@media screen and (max-width: 800px) {
+    .titleKaartjes{
+        
+        margin-bottom: 70px;
+        font-size: 60px;
+        width: 100%;
+    }
+    .h2Personen{
+        font-family: 'McLaren', cursive;
+        text-align: center;
+        font-size: 30px;
+        margin: 0 auto;
+        width: 100%;
+    }
     
-    display: inline;
-    margin-bottom: 0px;
+    .h3Personen{
+        font-family: 'McLaren', cursive;
+        font-size: 20px;
+        text-align: center;
+        display: block;
+        margin: 75px;
+        
+    }
 }
 
-.kostenKaartjes{
-    display: inline;
-    margin-top: 0px;
+@media  screen and (max-width: 1000px) {
+    
 }
-
-.h2Kinderen{
-    margin-bottom: 5px;
-}
-
-.h2Studenten{
-    margin-bottom: 5px;
-}
-
 
 /* extra */ 
-.vl {
-    border-right: 2px solid black;
-    right: 50%;
-    height: 800px;
-    position: absolute;
-    margin-left: -3px;
-    top: 0;
-    margin: 10px;
-    margin-top: 15px;
-    margin-left: 150px;
+.Route{
+    margin-bottom: 80px;
+    font-size: 120px;
 }
 
-.envlag{
-    width: 50px;
-    height: 30px;
-    margin: 10px;
-    margin-top: 15px;
+.Vlak{
+    text-align: center;
+    border: 5px solid;
+    border-radius: 5px;
+    height: 800px;
+    font-size: 5vw;
 }
 
 .kaartbutton{
@@ -218,7 +383,8 @@ footer{
 }
 
 .midsectionleft{
-    border: 5px solid black;
+    border: 1px solid black;
+    border-radius: 10px;
     text-align: center;
     height: 400px;
     align-self: center;
@@ -228,8 +394,10 @@ footer{
 }
 
 .midsectionright{
-    border: 5px solid black;
-    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
     height: 400px;
     align-self: center;
     justify-content: center;
@@ -240,118 +408,222 @@ footer{
 .footerh2{
     color: white;
     display: inline;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
 }
 
 .footersec{
-    border: 1px solid red;
     height: 250px;
-    width: 225px;
-    margin: 0 auto;
+    width: 350px;
     margin: auto;
     text-align: center;
+    justify-content: center;
+    margin-top: 25px;
 }
 
-.gsP{
 
+.footerDiv{
+    width: 80vw;
+    margin: 0 auto;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.gsP{
+    font-family: 'McLaren', cursive;
     height: 340px;
     margin-top: 10px;
     text-align: center;
     padding: 30px;
 }
 
-.slideimg{
-    padding: 22px;
+.slidefig{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    animation-name: fotoSlider;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+@keyframes fotoSlider {
+    0%{
+        opacity: 0.02;
+        background-image: url(img/vanghogvoorpagina.jpg);
+    }
+    10%{
+        opacity: 1;
+        background-image: url(img/vanghogvoorpagina.jpg);
+    }
+    19%{
+        opacity: 0.02;
+        background-image: url(img/vanghogvoorpagina.jpg);
+    }
+    20%{
+        opacity: 0.02;
+        background-image: url(img/slider2.jpeg);
+    } 
+    30%{
+        opacity: 1;
+        background-image: url(img/slider2.jpeg);
+    } 
+    39%{
+        opacity: 0.02;
+        background-image: url(img/slider2.jpeg);
+    } 
+    40%{
+        opacity: 0.02;
+        background-image: url(img/slider3.jpg);
+    }
+    50%{
+        opacity: 1;
+        background-image: url(img/slider3.jpg);
+    }
+    59%{
+        opacity: 0.02;
+        background-image: url(img/slider3.jpg);
+    }
+    60%{
+        opacity: 0.02;
+        background-image: url(img/slider4.jpg);
+    }
+    70%{
+        opacity: 1;
+        background-image: url(img/slider4.jpg);
+    }
+    79%{
+        opacity: 0.02;
+        background-image: url(img/slider4.jpg);
+    }
+    80%{
+        opacity: 0.02;
+        background-image: url(img/slider5.jpg);
+    }
+    90%{
+        opacity: 1;
+        background-image: url(img/slider5.jpg);
+    }
+    99%{
+        opacity: 0.02;
+        background-image: url(img/slider5.jpg);
+    }
+    100%{
+        opacity: 0.02;
+        background-image: url(img/vanghogvoorpagina.jpg);
+    }
 }
 
 .footerp{
     color: white;
-    margin: 8px 0px;
     margin-top: 10px;
     font-size: 15px;
-    text-align: left;
+    text-align: center;
+    font-size: 16px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.infoF{
+    margin-top: 10px;
+}
+
+.tourDiv{
+    margin: 0 auto;
+    height: 1000px;
+    border: 1px solid black;
+    width: 80vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.artDiv{
+    margin: 0 auto;
+    height: 1000px;
+    border: 1px solid black;
+    width: 80vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.testimonials{
+    padding-bottom: 40px;
+    background-image: linear-gradient(to bottom left, rgb(224, 183, 1), rgb(255, 196, 0), rgb(255, 153, 0), darkorange);
+    color: black;
+    text-align: center;
+    display: grid;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.testimonail{
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    height: 350px;
+}
+
+.testimonail > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.stars{
+    color: black;
+}
+
+.reviewh2{
+    font-size: 50px;
+}
+
+h3{
+    margin: 10px;
+}
+
+@media screen and (max-width:960px) {
+    .col{
+        flex: 100%;
+        max-width: 80%;
+    }
+
+    h1{
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .col{
+        flex: 100%;
+        max-width: 100%;
+    }
 
 
 /* Job class */
@@ -391,4 +663,5 @@ td div{
 
 td img{
     position: absolute;
+
 }
