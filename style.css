@@ -356,39 +356,47 @@ footer{
 
 /* Job class */
 
-.tekstVergroten{
-    font-size: 20px;
+.collectionsList{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-img{
-    margin: 0 auto;
-    padding-right: 200px;
-    padding-top: 0;
-    padding-bottom: 20px;
-    width: 25%;
-    height: 25%;
-}
-p{
-    padding-right: 200px;
-    padding-top: 0;
-    padding-bottom: 20px;
-    width: 30%;
-}
-th, td{
-    text-align: left;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+.collectionsListItem{
+    width: 400px;
+    height: 710px;
+    flex-shrink: 0;
+    background-color: bisque;
+    border: 1px solid black;
 }
 
-td div{
-    overflow:hidden; 
-    width:100px; 
-    height:100px; 
-    padding: 20px;
+.collectionsListItem > img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 
-td img{
-    position: absolute;
+.Part{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.h1art{
+    font-size: 120px;
+}
+
+.h2art{
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.achtergrondart{
+    background-image: linear-gradient(to bottom right, darkorange, rgb(255, 153, 0), rgb(255, 196, 0), rgb(224, 183, 1));
+}
+
+.Geenidee{
+    padding: 15px;
 }
