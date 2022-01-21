@@ -61,7 +61,8 @@ footer{
     background-color:black;
     width: 100%;
     height: 300px;
-    display: grid;
+    display: flex;
+    justify-content: space-evenly;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -96,13 +97,13 @@ footer{
 }
 
 .leftdownbutton{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: darkred;
     color: white;
     position: absolute;
-    width: 200px;
+    width: 300px;
     height: 50px;
     bottom: 50px;
-    left: 50px;
+    left: 40%;
     font-size: 40px;
     border: 3px solid black;
     border-radius: 10px;
@@ -112,7 +113,7 @@ footer{
 }
 
 .leftdownbutton:hover{
-    background-color: darkred;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .backimg{
