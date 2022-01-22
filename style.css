@@ -380,6 +380,43 @@ nav button{
     font-family: 'Courier New', Courier, monospace;
 }
 
+/*style voor de code route*/ 
+#container{
+    background-color: lightgray;
+
+    width: 900px;
+    height: 600px;
+    margin: 50px auto auto auto;
+    display: grid;
+
+    grid-template-columns: auto auto;
+    border: inset 2px black;
+}
+
+#myInteraction{
+    padding: 15px;
+}
+
+nav button{
+    background-color: lightskyblue;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#knopNoord, #knopZuid{
+    display: block;
+    width: 300px;
+}
+
+#knopWest, #knopOost{
+    display: inline-block;
+    width: 150px;
+}
+/*eind code voor de route*/ 
+
 
 /* extra */ 
 .kaartbutton{

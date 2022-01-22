@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="js.js"></script>
+    
+
+
     <title>Art Van Gogh</title>
 </head>
 
@@ -28,17 +30,24 @@
     <h1 class="Route">Interactieve Route</h1>
 
     <div id="container">
-        <img id="myimg" src="img/Inganguitgang.jpg" alt="ingang van het van gogh museum">
-        <img id="js--trappenhuis" src="img/Trappenhuis.jpg" alt="een aantal verdiepingen waar je naar schilderijen kan kijken.">
-        <img id="js--kamer4" src="img/Kamer4.jpg" alt="Een kamer waar je naar Vicent' schilderijen kan kijken.">
-        <img id="js--kamer3" src="img/Kamer3.jpg" alt="Een kamer waar je naar Vicent' schilderijen kan kijken.">
-        <img id="js--kamer2" src="img/Kamer2.jpg" alt="Een kamer waar je naar Vicent' schilderijen kan kijken.">
+        <img id="myImg" src="img/Inganguitgang.jpg" alt="ingang van het van gogh museum">
+        <div id="myInteraction">
+            <div id="myTitle">Zie hier de route van het Van Gogh museum!</div>
+            <input type="text" id="myInput" autocomplete="off">
+            <input type="button" value="voer in" onclick="getInput()">
+
+            <h3>Kies welke richtiging je op wilt gaan.</h3>
+            <nav>
+                <button id="knopNoord" onclick="goDirection('noord')">Noord</button>
+                <button id="knopWest" onclick="goDirection('west')">West</button><button id="knopOost" onclick="goDirection('oost')">Oost</button>
+                <button id="knopZuid" onclick="goDirection('zuid')">Zuid</button>
+            </nav>
+        </div>
     </div>
 
-    
+
 
     <footer>
-
         <div class="footerDiv">
             <section class="footersec">
                 <h2 class="footerh2">Contacten</h2>
@@ -65,6 +74,7 @@
         </div>
 
     </footer>
+   <script src="script.js"></script>
 </body>
 
 </html>
