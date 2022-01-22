@@ -61,7 +61,8 @@ footer{
     background-color:black;
     width: 100%;
     height: 300px;
-    display: grid;
+    display: flex;
+    justify-content: space-evenly;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -96,13 +97,13 @@ footer{
 }
 
 .leftdownbutton{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: darkred;
     color: white;
     position: absolute;
-    width: 200px;
+    width: 300px;
     height: 50px;
     bottom: 50px;
-    left: 50px;
+    left: 40%;
     font-size: 40px;
     border: 3px solid black;
     border-radius: 10px;
@@ -112,7 +113,7 @@ footer{
 }
 
 .leftdownbutton:hover{
-    background-color: darkred;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .backimg{
@@ -628,28 +629,57 @@ h3{
         flex: 100%;
         max-width: 100%;
     }
+
 }
+
 
 /* Job class */
 .tekstVergroten{
     font-size: 20px;
 }
 
-th, td{
-    text-align: left;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+.collectionsList{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-td div{
-    overflow:hidden; 
-    width:100px; 
-    height:100px; 
-    padding: 20px;
+.collectionsListItem{
+    width: 400px;
+    height: 710px;
+    flex-shrink: 0;
+    background-color: bisque;
+    border: 1px solid black;
 }
 
-td img{
-    position: absolute;
+.collectionsListItem > img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
+
+.Part{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.h1art{
+    font-size: 120px;
+}
+
+.h2art{
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.achtergrondart{
+    background-image: linear-gradient(to bottom right, darkorange, rgb(255, 153, 0), rgb(255, 196, 0), rgb(224, 183, 1));
+}
+
+.Geenidee{
+    padding: 15px;
+}
+    
