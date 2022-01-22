@@ -237,6 +237,7 @@ footer{
     margin-right: 205px;
 }
 
+
 #button2KinderenRechts{
     background-color: bisque;
     width: 5vw;
@@ -364,20 +365,23 @@ footer{
     
 }
 
-/* extra */ 
+/* route */ 
 .Route{
     margin-bottom: 80px;
     font-size: 120px;
 }
 
-.Vlak{
-    text-align: center;
-    border: 5px solid;
-    border-radius: 5px;
-    height: 800px;
-    font-size: 5vw;
+nav button{
+    background-color: lightskyblue;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 
+
+/* extra */ 
 .kaartbutton{
     color: rgb(224, 183, 1);
     border: 1px solid rgb(255, 153, 0);
@@ -436,7 +440,7 @@ footer{
     font-family: 'McLaren', cursive;
     height: 340px;
     margin-top: 10px;
-    text-align: center;
+    text-align: left;
     padding: 30px;
 }
 
@@ -627,7 +631,12 @@ h3{
     }
 
 }
+
+
 /* Job class */
+.tekstVergroten{
+    font-size: 20px;
+}
 
 .collectionsList{
     list-style: none;
