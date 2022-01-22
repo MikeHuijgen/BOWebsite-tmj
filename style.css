@@ -125,19 +125,28 @@ footer{
 .logo{
     width: 60px;
     height: 60px;
-    margin-right: 200px;
 }
 
 .nlvlag{
     width: 50px;
     height: 30px;
-    margin-top: 10%;
 }
 
 .envlag{
     width: 50px;
     height: 30px;
-    margin-top: 10%;
+}
+
+.vlagA{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoLi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -609,7 +618,31 @@ h3{
     margin: 10px;
 }
 
-@media screen and (max-width:960px) {
+@media screen and (max-width:1000px){
+    header{
+        height: 420px;
+        width: 100%;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    nav > ul{
+        display: block;
+    }
+
+    .nlvlag{
+        margin-top: 15px;
+    }
+
+    .envlag{
+        margin-top: 15px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
     .col{
         flex: 100%;
         max-width: 80%;
@@ -618,6 +651,7 @@ h3{
     h1{
         font-size: 100px;
     }
+
 }
 
 @media screen and (max-width:600px) {
@@ -626,6 +660,9 @@ h3{
         max-width: 100%;
     }
 
+    body{
+        font-size: 16px; 
+     }
 }
 /* Job class */
 
