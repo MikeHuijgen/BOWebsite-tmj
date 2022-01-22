@@ -121,6 +121,3 @@ function berekenPrijs3(oprater) {
         kosten3.innerText = getal - 10;
     }
 }
-
-/*Interactieve route*/ 
-

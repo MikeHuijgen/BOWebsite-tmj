@@ -8,7 +8,7 @@
     <script type="text/javascript" src="js.js"></script>
     <title>Art Van Gogh</title>
 </head>
-<body>
+<body class="interactieverouteBody">
     <header>
         <nav>
             <ul>
@@ -23,8 +23,21 @@
         </nav>
     </header>
     <main>
-        <div class="tourDiv">
-            <h1>Tour</h1>
+        <h1 class="Route">Interactieve Route</h1>
+        <div id="container">
+            <img id="myImg" src="img/Inganguitgang.jpg" alt="ingang van het van gogh museum">
+            <div id="myInteraction">
+                <div id="myTitle">Zie hier de route van het Van Gogh museum!</div>
+                <input type="text" id="myInput" autocomplete="off">
+                <input type="button" value="voer in" onclick="getInput()">
+    
+                <h3>Kies welke richtiging je op wilt gaan.</h3>
+                <nav>
+                    <button id="knopNoord" onclick="goDirection('noord')">Noord</button>
+                    <button id="knopWest" onclick="goDirection('west')">West</button><button id="knopOost" onclick="goDirection('oost')">Oost</button>
+                    <button id="knopZuid" onclick="goDirection('zuid')">Zuid</button>
+                </nav>
+            </div>
         </div>
     </main>
     <footer>
