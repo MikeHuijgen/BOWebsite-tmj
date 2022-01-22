@@ -365,7 +365,13 @@ footer{
     
 }
 
+
 /* route */ 
+
+.interactieverouteBody{
+    background-image: linear-gradient(to bottom right, darkorange, rgb(255, 153, 0), rgb(255, 196, 0), rgb(224, 183, 1));
+}
+
 .Route{
     margin-bottom: 80px;
     font-size: 120px;
@@ -382,26 +388,34 @@ nav button{
 
 /*style voor de code route*/ 
 #container{
-    background-color: lightgray;
+    
 
-    width: 900px;
-    height: 600px;
-    margin: 50px auto auto auto;
+    width: 1500px;
+    height: 900px;
+    margin: 50px auto 50px auto;
     display: grid;
+    padding: 20px;
 
     grid-template-columns: auto auto;
-    border: inset 2px black;
+    border: inset 1px black;
 }
+
+#myImg{ 
+    width: auto;
+    height: auto;
+}
+
 
 #myInteraction{
     padding: 15px;
 }
 
 nav button{
-    background-color: lightskyblue;
+    background-color: white;
     font-size: 16px;
-    padding: 10px;
+    padding: 20px;
     cursor: pointer;
+
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -568,16 +582,6 @@ nav button{
 
 .infoF{
     margin-top: 10px;
-}
-
-.tourDiv{
-    margin: 0 auto;
-    height: 1000px;
-    border: 1px solid black;
-    width: 80vw;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    text-align: center;
 }
 
 .artDiv{
