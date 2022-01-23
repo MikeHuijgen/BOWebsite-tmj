@@ -177,7 +177,6 @@ footer{
     font-family: 'McLaren', cursive;
     font-size: 40px;
     text-align: center;
-
     display: block;
     margin: 75px;
 }
@@ -397,7 +396,6 @@ footer{
         font-family: 'McLaren', cursive;
         font-size: 20px;
         text-align: center;
-    
         display: block;
         margin: 100px;
     }
@@ -548,10 +546,8 @@ footer{
     }
     
     .h3Personen{
-        font-size: 21px;
-        text-align: left;
-        display: block;
-        margin: 45px;
+        font-size: 18px;
+        margin: 30px;
     }
 
     #button1KinderenLinks{
