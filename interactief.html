@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <script type="text/javascript" src="js.js"></script>
     <title>Art Van Gogh</title>
 </head>
+
 <body class="interactieverouteBody">
     <header>
         <nav>
@@ -15,7 +17,7 @@
                 <li> <img class="logo" src="img/VanGhogLogo.png" alt="Het van Gogh museum"></li>
                 <li> <a href="index.html">Home</a></li>
                 <li> <a href="Schilderijen.html">Schilderijen</a></li>
-                <li  class="active"> <a href="interactief.html">Interactief</a></li>
+                <li class="active"> <a href="interactief.html">Interactief</a></li>
                 <li> <a class="kaartbutton" href="kaartjes.html">Kaartjes</a></li>
                 <li> <a href="index.html"><img class="nlvlag" src="img/NLflag.jpg" alt="Nederlandse vlag"></a></li>
                 <li> <a href="HomeEng.html"><img class="envlag" src="img/ENFlag.jpg" alt="Engelse vlag"></a></li>
@@ -30,11 +32,12 @@
                 <div id="myTitle">Zie hier de route van het Van Gogh museum!</div>
                 <input type="text" id="myInput" autocomplete="off">
                 <input type="button" value="voer in" onclick="getInput()">
-    
+
                 <h3>Kies welke richtiging je op wilt gaan.</h3>
                 <nav>
                     <button id="knopNoord" onclick="goDirection('noord')">Noord</button>
-                    <button id="knopWest" onclick="goDirection('west')">West</button><button id="knopOost" onclick="goDirection('oost')">Oost</button>
+                    <button id="knopWest" onclick="goDirection('west')">West</button><button id="knopOost"
+                        onclick="goDirection('oost')">Oost</button>
                     <button id="knopZuid" onclick="goDirection('zuid')">Zuid</button>
                 </nav>
             </div>
@@ -67,4 +70,5 @@
         </div>
     </footer>
 </body>
+
 </html>
