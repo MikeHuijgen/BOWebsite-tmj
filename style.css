@@ -861,7 +861,6 @@ footer{
 /*style voor de code route*/ 
 #container{
     width: 80vw;
-    height: 820px;
     margin: 0 auto;
     display: block;
     padding: 20px;
@@ -870,7 +869,7 @@ footer{
 }
 
 #myImg{ 
-    width: 70%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
 
@@ -880,7 +879,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 600px;
 }
 
 #myInteraction{
@@ -911,6 +910,7 @@ footer{
 
 .infoRoute{
     height: 150px;
+    text-align: center;
 }
 
 .h3RouteInfo{
@@ -918,12 +918,14 @@ footer{
     justify-content: center;
     align-items: center;
     border-top: 1px solid black;
+    font-size: 200%;
 }
 
 .pRouteInfo{
     display: flex;
     justify-content: center;
-    align-items: center;
+    width: 700px;
+    margin: 0 auto;
 }
 
 #knopNoord, #knopZuid, #knopTerug{
@@ -1236,6 +1238,12 @@ h3{
     .h1art{
         font-size: 100px;
     }
+
+    #myImg{ 
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width:1000px){
@@ -1317,6 +1325,18 @@ h3{
     .h1art{
         font-size: 70px;
     }
+
+    .imgroute{
+        height: 450px;
+    }
+
+    .Route{
+        font-size: 70px;
+    }
+    
+    .pRouteInfo{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:800px) {
@@ -1341,7 +1361,9 @@ h3{
         width: 250px;
     }
 
-
+    .imgroute{
+        height: 300px;
+    }
 
     .titleKaartjes{
         
@@ -1368,6 +1390,23 @@ h3{
 
     .h1art{
         font-size: 60px;
+    }
+
+    .Route{
+        font-size: 60px;
+    }
+
+    .pRouteInfo{
+        width: 100%;
+        font-size: 90%;
+    }
+
+    .richtingText{
+        font-size: 100%;
+    }
+
+    .h3RouteInfo{
+        font-size: 150%;
     }
 }
 
@@ -1410,6 +1449,40 @@ h3{
 
     .midsectionleft{
         width: 85vw;
+    }
+
+    .imgroute{
+        height: 250px;
+    }
+
+    .pRouteInfo{
+        font-size: 75%;
+    }
+
+    .richtingText{
+        font-size: 80%;
+    }
+
+    .h3RouteInfo{
+        font-size: 125%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .imgroute{
+        height: 200px;
+    }
+
+    .pRouteInfo{
+        font-size: 75%;
+    }
+
+    .richtingText{
+        font-size: 80%;
+    }
+
+    .pRouteInfo{
+        font-size: 58%;
     }
 }
     
