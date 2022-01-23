@@ -1,3 +1,5 @@
+// knoppen voor de interactieve route
+
 const myTitle = document.getElementsByClassName("h3RouteInfo");
 const myImg = document.getElementById("myImg");
 const myInput = document.getElementById("myInput");
@@ -71,7 +73,7 @@ function updateDirections(){
     let button_keys = Object.keys(directionButtons); 
 
     for(const key of button_keys){
-        directionButtons[key].style.visibility = "hidden";
+        directionButtons[key].style.visibility = "hidden"; 
     }
 
     for(const key of possible_keys){
@@ -92,3 +94,5 @@ function goDirection(richting){
 }
 
 show(0); 
+// einde van de interactieve route
+
