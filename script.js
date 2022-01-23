@@ -1,17 +1,13 @@
-const myTitle = document.getElementById("myTitle");
+const myTitle = document.getElementsByClassName("h3RouteInfo");
 const myImg = document.getElementById("myImg");
 const myInput = document.getElementById("myInput");
 
-const knopNoord = document.getElementById("knopNoord");
-const knopOost = document.getElementById("knopOost");
-const knopZuid = document.getElementById("knopZuid");
-const knopWest = document.getElementById("knopWest");
-
 let directionButtons = {
-    "noord": document.getElementById("knopNoord"),
-    "oost":  document.getElementById("knopOost"),
-    "zuid":  document.getElementById("knopZuid"),
-    "west":  document.getElementById("knopWest")
+    "knop1": document.getElementById("knopNoord"),
+    "knop2":  document.getElementById("knopOost"),
+    "knop3":  document.getElementById("knopZuid"),
+    "knop4":  document.getElementById("knopWest"),
+    "knopTerug": document.getElementById("knopTerug")
 }
 
 let current_index = 0;
@@ -21,7 +17,7 @@ let locaties = [
         "title":"plaats 0",
         "image":"img/Inganguitgang.jpg",
         "directions": {
-            "noord": 1
+            "knop1": 1
         }
     },
 
@@ -29,10 +25,10 @@ let locaties = [
         "title":"plaats 1",
         "image":"img/Trappenhuis.jpg",
         "directions": {
-            "noord": 2, 
-            "oost":  3, 
-            "zuid":  0,
-            "west":  4
+            "knop3": 3, 
+            "knop2": 2,
+            "knop4": 4,
+            "knopTerug": 0
         }
     },
 
@@ -40,7 +36,7 @@ let locaties = [
         "title":"plaats 2",
         "image":"img/Kamer2.jpg",
         "directions": {
-            "zuid":  1
+            "knopTerug": 1
         }
     },
 
@@ -48,7 +44,7 @@ let locaties = [
         "title":"plaats 3",
         "image":"img/Kamer3.jpg", 
         "directions": {
-            "zuid": 1
+            "knopTerug": 1
         }
     },
 
@@ -56,7 +52,7 @@ let locaties = [
         "title":"plaats 4",
         "image":"img/Kamer4.jpg",
         "directions": {
-            "zuid": 1
+            "knopTerug": 1
         }
     },
 ]
@@ -88,6 +84,7 @@ function getInput(){
     myInput.value = "";
     myInput.focus();
 }
+
 function goDirection(richting){
     let punt_index = locaties[current_index].directions[richting];
     console.log(punt_index);

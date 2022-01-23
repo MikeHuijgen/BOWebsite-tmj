@@ -30,18 +30,24 @@
     <h1 class="Route">Interactive Route</h1>
 
     <div id="container">
-        <img id="myImg" src="img/Inganguitgang.jpg" alt="ingang van het van gogh museum">
+        <div class="imgroute">
+            <img id="myImg" src="img/Inganguitgang.jpg" alt="ingang van het van gogh museum">
+        </div>
         <div id="myInteraction">
-            <div id="myTitle">Zie hier de route van het Van Gogh museum!</div>
-            <input type="text" id="myInput" autocomplete="off">
-            <input type="button" value="voer in" onclick="getInput()">
-
-            <h3>Kies welke richtiging je op wilt gaan.</h3>
-            <nav>
-                <button id="knopNoord" onclick="goDirection('noord')">Noord</button>
-                <button id="knopWest" onclick="goDirection('west')">West</button><button id="knopOost" onclick="goDirection('oost')">Oost</button>
-                <button id="knopZuid" onclick="goDirection('zuid')">Zuid</button>
-            </nav>
+            <h3 class="richtingText">Kies welke richtiging je op wilt gaan.</h3>
+            <div class="navbuttons">
+                <button id="knopNoord" onclick="goDirection('knop1')">1</button>
+                <button id="knopWest" onclick="goDirection('knop2')">2</button>
+                <button id="knopOost" onclick="goDirection('knop3')">3</button>
+                <button id="knopZuid" onclick="goDirection('knop4')">4</button>
+                <button id="knopTerug" onclick="goDirection('knopTerug')">Terug</button>
+            </div>
+        </div>
+        <div class="infoRoute">
+            <h3 class="h3RouteInfo">Ingang</h3>
+            <p class="pRouteInfo">
+                ofhweiufgiwegfiywegfiyefgweiygffffffffffffffffffffffffffff
+            </p>
         </div>
     </div>
     <footer>
