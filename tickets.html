@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 
 <head>
 
@@ -20,65 +20,90 @@
     <header>
         <nav>
             <ul>
-                <li> <img class="logo" src="img/VanGhogLogo.png" alt="Het van Gogh museum"></li>
+                <li class="logoLi"><img class="logo" src="img/VanGhogLogo.png" alt="Het van Gogh museum"></li>
                 <li> <a href="HomeEng.html">Home</a></li>
                 <li> <a href="art.html">Art</a></li>
-                <li> <a href="interactive route.html">Interactive</a></li>
+                <li> <a href="interactiveroute.html">interactive</a></li>
                 <li class="active"> <a class="kaartbutton" href="tickets.html">Tickets</a></li>
-                <li> <a href="index.html"><img class="nlvlag" src="img/NLflag.jpg" alt="Nederlandse vlag"></a></li>
-                <li> <a href="HomeEng.html"><img class="envlag" src="img/ENFlag.jpg" alt="Engelse vlag"></a></li>
+                <li> <a href="index.html" class="vlagA"><img class="nlvlag" src="img/NLflag.jpg"
+                            alt="Nederlandse vlag"></a></li>
+                <li> <a href="HomeEng.html" class="vlagA"><img class="envlag" src="img/ENFlag.jpg"
+                            alt="Engelse vlag"></a></li>
             </ul>
         </nav>
     </header>
-
-    <h1 class="titleKaartjes">Tickets</h1>
-
-
-    <div class="HoofdSection">
-
-        <section class="secPersonen">
-            <h2 class="h2Personen">Persons</h2>
-            <h3 class="h3Personen">Children</h3>
-            <h3 class="h3Personen">Adults</h3>
-            <h3 class="h3Personen">Elderly</h3>
-            <h3 class="h3Personen">Students</h3>
-        </section>
-
-        <section class="secH">
-            <h2 class="h2Personen">Quantity</h2>
-
-            <button id="button1KinderenLinks">⇦</button>
-            <span id="js--aantal1">0</span>
-            <button id="button1KinderenRechts">⇨</button>
-
-            <button id="button2KinderenLinks">⇦</button>
-            <span id="js--aantal2">0</span>
-            <button id="button2KinderenRechts">⇨</button>
-
-            <button id="button3KinderenLinks">⇦</button>
-            <span id="js--aantal3">0</span>
-            <button id="button3KinderenRechts">⇨</button>
-
-            <button id="button4KinderenLinks">⇦</button>
-            <span id="js--aantal4">0</span>
-            <button id="button4KinderenRechts">⇨</button>
-        </section>
-
-        <section class="secK">
-            <h2 class="h2Personen">Cost</h2>
-
-            <h4 class="prijs"> Price € <span id="js--kosten1" class="totaal">0</span></h4>
-            <h4 class="prijs"> Price € <span id="js--kosten2" class="totaal">0</span></h4>
-            <h4 class="prijs"> Price € <span id="js--kosten3" class="totaal">0</span></h4>
-            <h4 class="prijs"> Price € <span id="js--kosten4" class="totaal">0</span></h4>
+    <main>
+        <h1 class="titleKaartjes">Tickets</h1>
 
 
+        <div class="HoofdSection">
 
-        </section>
-    </div>
+            <section class="secPersonen">
+                <h2 class="h2Personen">Persons</h2>
+                <h3 class="h3Personen">Children</h3>
+                <h3 class="h3Personen">Adults</h3>
+                <h3 class="h3Personen">Elderly</h3>
+                <h3 class="h3Personen">Students</h3>
+            </section>
 
+            <section class="secH">
+                <h2 class="h2Personen">Quantity</h2>
+
+                <button id="button1KinderenLinks">⇦</button>
+                <span id="js--aantal1">0</span>
+                <button id="button1KinderenRechts">⇨</button>
+
+                <button id="button2KinderenLinks">⇦</button>
+                <span id="js--aantal2">0</span>
+                <button id="button2KinderenRechts">⇨</button>
+
+                <button id="button3KinderenLinks">⇦</button>
+                <span id="js--aantal3">0</span>
+                <button id="button3KinderenRechts">⇨</button>
+
+                <button id="button4KinderenLinks">⇦</button>
+                <span id="js--aantal4">0</span>
+                <button id="button4KinderenRechts">⇨</button>
+            </section>
+
+            <section class="secK">
+                <h2 class="h2Personen">Cost</h2>
+
+                <h4 class="prijs"> Price € <span id="js--kosten1" class="totaal">0</span></h4>
+                <h4 class="prijs"> Price € <span id="js--kosten2" class="totaal">0</span></h4>
+                <h4 class="prijs"> Price € <span id="js--kosten3" class="totaal">0</span></h4>
+                <h4 class="prijs"> Price € <span id="js--kosten4" class="totaal">0</span></h4>
+
+
+
+            </section>
+        </div>
+    </main>
     <footer>
-
+        <div class="footerDiv">
+            <section class="footersec">
+                <h2 class="footerh2">Contacten</h2>
+                <div class="infoF">
+                    <p class="footerp">E-mail: info@vangoghmuseum.nl</p>
+                    <p class="footerp">Telefoon: (020) 570 52 00</p>
+                    <p class="footerp"><b>Locatie</b></p>
+                    <p class="footerp">Museumplein 6</p>
+                    <p class="footerp">1071 DJ Amsterdam</p>
+                </div>
+            </section>
+            <section class="footersec">
+                <h2 class="footerh2">Openingstijden</h2>
+                <div class="infoF">
+                    <p class="footerp">Mo: Gesloten</p>
+                    <p class="footerp">Tu: 10:00 t/m 17:00</p>
+                    <p class="footerp">We: 10:00 t/m 17:00</p>
+                    <p class="footerp">Do: 10:00 t/m 17:00</p>
+                    <p class="footerp">Vr: 10:00 t/m 17:00</p>
+                    <p class="footerp">Sa: 09:00 t/m 17:00</p>
+                    <p class="footerp">So: 09:00 t/m 17:00</p>
+                </div>
+            </section>
+        </div>
     </footer>
 
     <script src="js.js" defer></script>

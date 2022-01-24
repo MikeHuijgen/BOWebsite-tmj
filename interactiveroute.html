@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+
+
+    <title>Art Van Gogh</title>
+</head>
+
+<body class="interactieverouteBody">
+    <header>
+        <nav>
+            <ul>
+                <li class="logoLi"><img class="logo" src="img/VanGhogLogo.png" alt="Het van Gogh museum"></li>
+                <li> <a href="HomeEng.html">Home</a></li>
+                <li> <a href="art.html">Art</a></li>
+                <li class="active"> <a href="interactiveroute.html">interactive</a></li>
+                <li> <a class="kaartbutton" href="tickets.html">Tickets</a></li>
+                <li> <a href="index.html" class="vlagA"><img class="nlvlag" src="img/NLflag.jpg" alt="Nederlandse vlag"></a></li>
+                <li> <a href="HomeEng.html" class="vlagA"><img class="envlag" src="img/ENFlag.jpg" alt="Engelse vlag"></a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <h1 class="Route">Interactive Route</h1>
+
+    <div id="container">
+        <div class="imgroute">
+            <img id="myImg" src="img/Inganguitgang.jpg" alt="ingang van het van gogh museum">
+        </div>
+        <div id="myInteraction">
+            <h3 class="richtingText">Kies welke richtiging je op wilt gaan.</h3>
+            <div class="navbuttons">
+                <button id="knopNoord" onclick="goDirection('knop1')">1</button>
+                <button id="knopWest" onclick="goDirection('knop2')">2</button>
+                <button id="knopOost" onclick="goDirection('knop3')">3</button>
+                <button id="knopZuid" onclick="goDirection('knop4')">4</button>
+                <button id="knopTerug" onclick="goDirection('knopTerug')">Go back</button>
+            </div>
+        </div>
+        <div class="infoRoute">
+            <h3 class="h3RouteInfo">Entrance</h3>
+            <p class="pRouteInfo">
+                You can buy your tickets if you go to the entrance.
+                Outside of the building you can see the beautiful structure how the museum is build.
+            </p>
+        </div>
+    </div>
+</main>
+    <footer>
+        <div class="footerDiv">
+            <section class="footersec">
+                <h2 class="footerh2">Contacts</h2>
+                <div class="infoF">
+                    <p class="footerp">E-mail: info@vangoghmuseum.nl</p>
+                    <p class="footerp">Phone: (020) 570 52 00</p>
+                    <p class="footerp"><b>Location</b></p>
+                    <p class="footerp">Museumplein 6</p>
+                    <p class="footerp">1071 DJ Amsterdam</p>
+                </div>
+            </section>
+            <section class="footersec">
+                <h2 class="footerh2">Opening hours</h2>
+                <div class="infoF">
+                    <p class="footerp">Mo: Closed</p>
+                    <p class="footerp">Tu: 10:00 t/m 17:00</p>
+                    <p class="footerp">We: 10:00 t/m 17:00</p>
+                    <p class="footerp">Th: 10:00 t/m 17:00</p>
+                    <p class="footerp">Fr: 10:00 t/m 17:00</p>
+                    <p class="footerp">Sa: 09:00 t/m 17:00</p>
+                    <p class="footerp">So: 09:00 t/m 17:00</p>
+                </div>
+            </section>
+        </div>
+
+    </footer>
+   <script src="script.js"></script>
+</body>
+
+</html>
