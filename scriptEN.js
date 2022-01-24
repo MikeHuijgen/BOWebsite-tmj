@@ -15,8 +15,8 @@ let current_index = 0;
 
 let locaties = [
     {
-        "h3RouteInfo":"De ingang",
-        "pRouteInfo": "Kom lekker binnen!",
+        "h3RouteInfo":"The entrance",
+        "pRouteInfo": "Come in!",
         "image":"img/Inganguitgang.jpg",
         "directions": {
             "knop1": 1
@@ -24,8 +24,8 @@ let locaties = [
     },
 
     {
-        "h3RouteInfo":"Het trappenhuis",
-        "pRouteInfo": "Welkom! Waar wil je naartoe?",
+        "h3RouteInfo":"The stairwell",
+        "pRouteInfo": "Welcome! Where would you like to go?",
         "image":"img/Trappenhuis.jpg",
         "directions": {
             "knop3": 3, 
@@ -36,8 +36,8 @@ let locaties = [
     },
 
     {
-        "h3RouteInfo":"Kamer van zonnebloemen",
-        "pRouteInfo": "Er is misschien geen geurtje, maar het ziet er nog steeds fantastisch uit!",
+        "h3RouteInfo":"Room with sunflowers",
+        "pRouteInfo": "There might be no smell, but it still looks fantastic!",
         "image":"img/Kamer2.jpg",
         "directions": {
             "knopTerug": 1
@@ -45,12 +45,8 @@ let locaties = [
     },
 
     {
-        "h3RouteInfo":"Sterrennacht kamer",
-      
-        "pRouteInfo": "Je staat nu IN de Sterrennacht. Rustgevend, nietwaar?",
-
-        "pRouteInfo": "Je staat nu IN de Sterrennacht. Rustgevend, nietwaar",
-
+        "h3RouteInfo":"starry night room",
+        "pRouteInfo": "You're now standing inside of the Starry Night. Soothing, isn't it.",
         "image":"img/Kamer3.jpg", 
         "directions": {
             "knopTerug": 1
@@ -58,8 +54,8 @@ let locaties = [
     },
 
     {
-        "h3RouteInfo":"Overal bloemen",
-        "pRouteInfo": "Fan van bloemen? Deze kamer zit er vol mee!",
+        "h3RouteInfo":"Flowers everywhere",
+        "pRouteInfo": "Fan of flowers? This room is full of them!",
         "image":"img/Kamer4.jpg",
         "directions": {
             "knopTerug": 1
@@ -103,5 +99,5 @@ function goDirection(richting){
 }
 
 show(0); 
-
 // einde van de interactieve route
+
