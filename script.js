@@ -46,7 +46,11 @@ let locaties = [
 
     {
         "h3RouteInfo":"Sterrennacht kamer",
+      
+        "pRouteInfo": "Je staat nu IN de Sterrennacht. Rustgevend, nietwaar?",
+
         "pRouteInfo": "Je staat nu IN de Sterrennacht. Rustgevend, nietwaar",
+
         "image":"img/Kamer3.jpg", 
         "directions": {
             "knopTerug": 1
