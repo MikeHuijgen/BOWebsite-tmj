@@ -15,8 +15,8 @@ let current_index = 0;
 
 let locaties = [
     {
-        "h3RouteInfo":"plaats hey",
-        "pRouteInfo": ";oufyrfiorigf",
+        "h3RouteInfo":"De ingang",
+        "pRouteInfo": "Kom lekker binnen!",
         "image":"img/Inganguitgang.jpg",
         "directions": {
             "knop1": 1
@@ -24,8 +24,8 @@ let locaties = [
     },
 
     {
-        "h3RouteInfo":"plaats 1",
-        "pRouteInfo": "Dit is de mooie ingang van het mooie museum",
+        "h3RouteInfo":"Het trappenhuis",
+        "pRouteInfo": "Welkom! Waar wil je naartoe?",
         "image":"img/Trappenhuis.jpg",
         "directions": {
             "knop3": 3, 
@@ -36,8 +36,8 @@ let locaties = [
     },
 
     {
-        "h3RouteInfo":"plaats 2",
-        "pRouteInfo": "Dit is de mooie ingang van het mooie museum",
+        "h3RouteInfo":"Kamer van zonnebloemen",
+        "pRouteInfo": "Er is misschien geen geurtje, maar het ziet er nog steeds fantastisch uit!",
         "image":"img/Kamer2.jpg",
         "directions": {
             "knopTerug": 1
@@ -45,8 +45,8 @@ let locaties = [
     },
 
     {
-        "h3RouteInfo":"plaats 3",
-        "pRouteInfo": "Dit is de mooie ingang van het mooie museum",
+        "h3RouteInfo":"Sterrennacht kamer",
+        "pRouteInfo": "Je staat nu IN de Sterrennacht. Rustgevend, nietwaar?",
         "image":"img/Kamer3.jpg", 
         "directions": {
             "knopTerug": 1
@@ -54,8 +54,8 @@ let locaties = [
     },
 
     {
-        "h3RouteInfo":"plaats 4",
-        "pRouteInfo": "Dit is de mooie ingang van het mooie museum",
+        "h3RouteInfo":"Overal bloemen",
+        "pRouteInfo": "Fan van bloemen? Deze kamer zit er vol mee!",
         "image":"img/Kamer4.jpg",
         "directions": {
             "knopTerug": 1
