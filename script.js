@@ -1,8 +1,7 @@
-// knoppen voor de interactieve route
 
-const myTitle = document.getElementsByClassName("h3RouteInfo");
-const myImg = document.getElementById("myImg");
-const myInput = document.getElementById("myInput");
+const myTitle = document.getElementById("h3RouteInfo");
+const myInfo = document.getElementById("pRouteInfo");
+// knoppen voor de interactieve route
 
 let directionButtons = {
     "knop1": document.getElementById("knopNoord"),
@@ -16,7 +15,8 @@ let current_index = 0;
 
 let locaties = [
     {
-        "title":"plaats 0",
+        "h3RouteInfo":"plaats hey",
+        "pRouteInfo": ";oufyrfiorigf",
         "image":"img/Inganguitgang.jpg",
         "directions": {
             "knop1": 1
@@ -24,7 +24,8 @@ let locaties = [
     },
 
     {
-        "title":"plaats 1",
+        "h3RouteInfo":"plaats 1",
+        "pRouteInfo": "Dit is de mooie ingang van het mooie museum",
         "image":"img/Trappenhuis.jpg",
         "directions": {
             "knop3": 3, 
@@ -35,7 +36,8 @@ let locaties = [
     },
 
     {
-        "title":"plaats 2",
+        "h3RouteInfo":"plaats 2",
+        "pRouteInfo": "Dit is de mooie ingang van het mooie museum",
         "image":"img/Kamer2.jpg",
         "directions": {
             "knopTerug": 1
@@ -43,7 +45,8 @@ let locaties = [
     },
 
     {
-        "title":"plaats 3",
+        "h3RouteInfo":"plaats 3",
+        "pRouteInfo": "Dit is de mooie ingang van het mooie museum",
         "image":"img/Kamer3.jpg", 
         "directions": {
             "knopTerug": 1
@@ -51,7 +54,8 @@ let locaties = [
     },
 
     {
-        "title":"plaats 4",
+        "h3RouteInfo":"plaats 4",
+        "pRouteInfo": "Dit is de mooie ingang van het mooie museum",
         "image":"img/Kamer4.jpg",
         "directions": {
             "knopTerug": 1
@@ -60,7 +64,8 @@ let locaties = [
 ]
 
 function show(index){
-    myTitle.innerHTML = locaties[index].title;
+    myTitle.innerHTML = locaties[index].h3RouteInfo;
+    myInfo.innerHTML = locaties[index].pRouteInfo;
     myImg.src = locaties[index].image;
     current_index = index;
 
