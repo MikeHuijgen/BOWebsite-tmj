@@ -193,26 +193,29 @@ footer{
     height: 700px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
 }
 
 .secK{
     margin: 0 auto;
     border-left: 2px solid black;
     height: 650px;
-    width: 600px;
+    width: 33vw;
 }
 
 .secH{
     margin: 0 auto;
     height: 650px;
-    width: 600px;
+    width: 33vw;
 }
 
 .secPersonen{
     border-right: 2px solid black;
     margin: 0 auto;
     height: 650px;
-    width: 600px;
+    width: 33vw;
 }
 
 
@@ -226,6 +229,15 @@ footer{
     font-size: 120px;
 }
 
+.kinderDiv{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px ;
+}
+
 /*Buttons Kaartjes*/
 #button1KinderenLinks{
     background-color: bisque;
@@ -235,8 +247,7 @@ footer{
     font-size: 2vw;
     text-align: center;
     cursor: pointer;
-    margin-top: 45px;
-    margin-right: 205px;
+    margin:0 auto;
 }
 
 #button1KinderenRechts{
@@ -247,8 +258,7 @@ footer{
     font-size: 2vw;
     text-align: center;
     cursor: pointer;
-    position: absolute;
-    margin-top: 45px;
+    margin: 0 auto;
 }
 
 #button2KinderenLinks{
@@ -334,8 +344,8 @@ footer{
 
 #js--aantal1{
     font-family: 'McLaren', cursive;
-    margin-right: 185px;
     font-size: 30px;
+    margin: 0 auto;
 }
 
 #js--aantal2{
@@ -359,8 +369,7 @@ footer{
 .prijs{
     font-family: 'McLaren', cursive;
     font-size: 40px;
-    margin: 78px;
-    margin-left:215px;
+    margin: 75px;
 }
 
 /* route */ 
@@ -763,6 +772,18 @@ h3{
         margin: 0 auto;
     }
 
+    .h2Personen{
+        font-size: 50px;
+    }
+
+    .h3Personen{
+        font-size: 30px;
+    }
+
+    .prijs{
+        margin: 63px;
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width:1000px){
@@ -860,6 +881,19 @@ h3{
     .leftdownbutton{
         width: 250px;
     }
+
+    .h2Personen{
+        font-size: 35px;
+    }
+
+    .h3Personen{
+        font-size: 20px;
+    }
+
+    .prijs{
+        font-size: 20px;
+        margin: 75px;
+    }
 }
 
 @media screen and (max-width:800px) {
@@ -894,22 +928,6 @@ h3{
         font-size: 60px;
         width: 100%;
     }
-    .h2Personen{
-        font-family: 'McLaren', cursive;
-        text-align: center;
-        font-size: 30px;
-        margin: 0 auto;
-        width: 100%;
-    }
-    
-    .h3Personen{
-        font-family: 'McLaren', cursive;
-        font-size: 20px;
-        text-align: center;
-        display: block;
-        margin: 75px;
-        
-    }
 
     .h1art{
         font-size: 60px;
@@ -930,6 +948,18 @@ h3{
 
     .h3RouteInfo{
         font-size: 150%;
+    }
+
+    .h3Personen{
+        margin: 50px;
+    }
+
+    .h2Personen{
+        font-size: 25px;
+    }
+    .prijs{
+        font-size: 18px;
+        margin: 50px;
     }
 }
 
@@ -992,6 +1022,21 @@ h3{
 
     .leftdownbutton{
         width: 200px;
+    }
+
+    .h3Personen{
+        margin: 20px;
+        margin-bottom: 40px;
+    }
+
+    .h2Personen{
+        font-size: 25px;
+    }
+
+    .prijs{
+        font-size: 18px;
+        margin: 20px;
+        margin-bottom: 44px;
     }
 }
 
