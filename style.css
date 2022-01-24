@@ -191,7 +191,7 @@ footer{
 /*Sections*/ 
 .HoofdSection{
     width: 100%;
-    height: 700px;
+    height: 140vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
@@ -234,7 +234,7 @@ footer{
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 /*Buttons Kaartjes*/
@@ -360,10 +360,10 @@ footer{
 
 .prijs{
     font-family: 'McLaren', cursive;
+    display: flex;
+    justify-content: center;
     font-size: 40px;
-    margin-top: 75px;
-
-    margin-left: 215px;
+    margin-top: 60px;
 
 }
 
@@ -880,7 +880,7 @@ h3{
 
     .HoofdSection{
         width: 100%;
-        height: 100vh;
+        height: 120vh;
     }
 
     .kinderDiv{
@@ -984,20 +984,20 @@ h3{
     .secPersonen{
         border-right: 2px solid black;
         margin: 0 auto;
-        height: 650px;
+        height: 550px;
         width: 30vw;
     }
 
     .secK{
         margin: 0 auto;
         border-left: 2px solid black;
-        height: 650px;
+        height: 550px;
         width: 30vw;
     }
 
     .secH{
         margin: 0 auto;
-        height: 650px;
+        height: 550px;
         width: 30vw;
     }
 
@@ -1073,12 +1073,12 @@ h3{
 
     .HoofdSection{
         width: 100%;
-        height: 100vh;
+        height: 110vh;
     }
 
     .kinderDiv{
         width: 0 auto;
-        margin-top: 50px;
+        margin-top: 40px;
     }
 
     #button1KinderenLinks{
@@ -1170,27 +1170,26 @@ h3{
 
     .prijs{
         font-family: 'McLaren', cursive;
-        margin: 60px;
         font-size: 100%;
     }
 
     .secPersonen{
         border-right: 2px solid black;
         margin: 0 auto;
-        height: 650px;
+        height: 500px;
         width: 30vw;
     }
 
     .secK{
         margin: 0 auto;
         border-left: 2px solid black;
-        height: 650px;
+        height: 500px;
         width: 30vw;
     }
 
     .secH{
         margin: 0 auto;
-        height: 650px;
+        height: 500px;
         width: 30vw;
     }
 
@@ -1213,7 +1212,7 @@ h3{
         font-size: 100%;
         text-align: left;
         display: block;
-        margin-top: 80px;
+        margin-top: 75px;
     }
 
     .h1art{
