@@ -94,5 +94,5 @@ function goDirection(richting){
 }
 
 show(0); 
-// einde van de interactieve route
 
+// einde van de interactieve route
