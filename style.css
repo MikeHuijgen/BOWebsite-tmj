@@ -550,7 +550,7 @@ footer{
     }
 
 
-    margin: 75px;
+    
 
 }
 
@@ -1212,7 +1212,7 @@ h3{
         display: block;
         margin-top: 103px;
         
-
+    }
     .leftdownbutton{
         width: 250px;
     }
@@ -1625,11 +1625,12 @@ h3{
         margin-right: 30%;
         font-size: 100%;
     }
-  .prijs{
+
+    .prijs{
         font-size: 18px;
         margin: 20px;
         margin-bottom: 44px;
-
+    }
     .leftdownbutton{
         width: 200px;
     }
