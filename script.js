@@ -1,5 +1,7 @@
+
 const myTitle = document.getElementById("h3RouteInfo");
 const myInfo = document.getElementById("pRouteInfo");
+// knoppen voor de interactieve route
 
 let directionButtons = {
     "knop1": document.getElementById("knopNoord"),
@@ -76,7 +78,7 @@ function updateDirections(){
     let button_keys = Object.keys(directionButtons); 
 
     for(const key of button_keys){
-        directionButtons[key].style.visibility = "hidden";
+        directionButtons[key].style.visibility = "hidden"; 
     }
 
     for(const key of possible_keys){
@@ -97,3 +99,5 @@ function goDirection(richting){
 }
 
 show(0); 
+// einde van de interactieve route
+
