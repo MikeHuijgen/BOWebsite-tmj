@@ -184,7 +184,7 @@ footer{
 
 /*Sections*/ 
 .HoofdSection{
-    width: 100vw;
+    width: 100%;
     height: 700px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -194,23 +194,21 @@ footer{
     margin: 0 auto;
     border-left: 2px solid black;
     height: 650px;
-    width: 30vw;
+    width: 33vw;
 }
 
 .secH{
     margin: 0 auto;
     height: 650px;
-    width: 30vw;
+    width: 33vw;
 }
 
 .secPersonen{
     border-right: 2px solid black;
     margin: 0 auto;
     height: 650px;
-    width: 30vw;
+    width: 33vw;
 }
-
-
 
 /* classes kaartjes */
 .bodyKaartjes{
@@ -224,100 +222,101 @@ footer{
 /*Buttons Kaartjes*/
 #button1KinderenLinks{
     background-color: bisque;
-    width: 5vw;
-    height: 5vw;
+    width: 85px;
+    height: 85px;
     border-radius: 10px;
     font-size: 2vw;
     text-align: center;
     cursor: pointer;
+   
     margin-top: 45px;
-    margin-right: 205px;
+    margin-right: 210px;
 }
 
 #button1KinderenRechts{
     background-color: bisque;
-    width: 5vw;
-    height: 5vw;
+    width: 85px;
+    height: 85px;
     border-radius: 10px;
     font-size: 2vw;
     text-align: center;
     cursor: pointer;
-    position: absolute;
+ 
     margin-top: 45px;
 }
 
 #button2KinderenLinks{
     background-color: bisque;
-    width: 5vw;
-    height: 5vw;
+    width: 85px;
+    height: 85px;
     border-radius: 10px;
     font-size: 2vw;
     text-align: center;
     cursor: pointer;
 
     margin-top: 45px;
-    margin-right: 205px;
+    margin-right: 180px;
 }
 
 
 #button2KinderenRechts{
     background-color: bisque;
-    width: 5vw;
-    height: 5vw;
+    width: 85px;
+    height: 85px;
     border-radius: 10px;
     font-size: 2vw;
     text-align: center;
     cursor: pointer;
-    position: absolute;
+   
     margin-top: 45px;
 }
 
 #button3KinderenLinks{
     background-color: bisque;
-    width: 5vw;
-    height: 5vw;
+    width: 85px;
+    height: 85px;
     border-radius: 10px;
     font-size: 2vw;
     text-align: center;
     cursor: pointer;
 
     margin-top: 45px;
-    margin-right: 205px;
+    margin-right: 180px;
 }
 
 #button3KinderenRechts{
     background-color: bisque;
-    width: 5vw;
-    height: 5vw;
+    width: 85px;
+    height: 85px;
     border-radius: 10px;
     font-size: 2vw;
     text-align: center;
     cursor: pointer;
-    position: absolute;
+ 
     margin-top: 45px;
 }
 #button4KinderenLinks{
     background-color: bisque;
-    width: 5vw;
-    height: 5vw;
+    width: 85px;
+    height: 85px;
     border-radius: 10px;
     font-size: 2vw;
     text-align: center;
     cursor: pointer;
 
     margin-top: 45px;
-    margin-right: 205px;
+    margin-right: 180px;
 }
 
 #button4KinderenRechts{
     background-color: bisque;
-    width: 5vw;
-    height: 5vw;
+    width: 85px;
+    height: 85px;
     border-radius: 10px;
     font-size: 2vw;
     text-align: center;
     cursor: pointer;
-    position: absolute;
+   
     margin-top: 45px;
 }
 
@@ -329,25 +328,25 @@ footer{
 
 #js--aantal1{
     font-family: 'McLaren', cursive;
-    margin-right: 185px;
+    margin-right: 150px;
     font-size: 30px;
 }
 
 #js--aantal2{
     font-family: 'McLaren', cursive;
-    margin-right: 185px;
+    margin-right: 150px;
     font-size: 30px;
 }
 
 #js--aantal3{
     font-family: 'McLaren', cursive;
-    margin-right: 185px;
+    margin-right: 150px;
     font-size: 30px;
 }
 
 #js--aantal4{
     font-family: 'McLaren', cursive;
-    margin-right: 185px;
+    margin-right: 150px;
     font-size: 30px;
 }
 
@@ -355,183 +354,7 @@ footer{
     font-family: 'McLaren', cursive;
     font-size: 40px;
     margin-top: 75px;
-    margin-left:215px;
-}
-
-@media screen and (max-width: 800px) {
-
-}
-
-@media screen and (max-width: 600px) {
-    .titleKaartjes{
-        margin-bottom: 70px;
-        font-size: 60px;
-    }
-
-    .secPersonen{
-        border-right: 2px solid black;
-        margin: 0 auto;
-        height: 360px;
-        width: 170px;
-    }
-
-    .secK{
-        margin: 0 auto;
-        border-left: 2px solid black;
-        height: 360px;
-        width: 170px;
-    }
-    
-    .secH{
-        margin: 0 auto;
-        height: 360px;
-        width: 170px;
-    }
-    
-    .h2Personen{
-        text-align: center;
-        font-size: 25px;
-        margin: 0 auto;
-    }
-    
-    .h3Personen{
-        font-size: 18px;
-        text-align: left;
-        display: block;
-        margin: 45px;
-    }
-
-    #button1KinderenLinks{
-        background-color: bisque;
-        width: 6vw;
-        height: 6vw;
-        border-radius: 10px;
-        font-size: 2vw;
-        text-align: center;
-        cursor: pointer;
-    
-        margin-top: 40px;
-        margin-right: 30px;
-    }
-    
-    #button1KinderenRechts{
-        background-color: bisque;
-        width:  6vw;
-        height:  6vw;
-        border-radius: 10px;
-        font-size: 2vw;
-        text-align: center;
-        cursor: pointer;
-        position: absolute;
-        margin-top: 40px;
-    }
-    
-    #button2KinderenLinks{
-        background-color: bisque;
-        width:  6vw;
-        height:  6vw;
-        border-radius: 10px;
-        font-size: 2vw;
-        text-align: center;
-        cursor: pointer;
-    
-        margin-top: 40px;
-        margin-right: 30px;
-    }
-    
-    #button2KinderenRechts{
-        background-color: bisque;
-        width:  6vw;
-        height:  6vw;
-        border-radius: 10px;
-        font-size: 2vw;
-        text-align: center;
-        cursor: pointer;
-        position: absolute;
-        margin-top: 40px;
-    }
-    
-    #button3KinderenLinks{
-        background-color: bisque;
-        width:  6vw;
-        height:  6vw;
-        border-radius: 10px;
-        font-size: 2vw;
-        text-align: center;
-        cursor: pointer;
-    
-        margin-top: 40px;
-        margin-right: 30px;
-    }
-    
-    #button3KinderenRechts{
-        background-color: bisque;
-        width:  6vw;
-        height:  6vw;
-        border-radius: 10px;
-        font-size: 2vw;
-        text-align: center;
-        cursor: pointer;
-        position: absolute;
-        margin-top: 40px;
-    }
-
-    #button4KinderenLinks{
-        background-color: bisque;
-        width:  6vw;
-        height:  6vw;
-        border-radius: 10px;
-        font-size: 2vw;
-        text-align: center;
-        cursor: pointer;
-    
-        margin-top: 40px;
-        margin-right: 30px;
-    }
-    
-    #button4KinderenRechts{
-        background-color: bisque;
-        width: 6vw;
-        height:  6vw;
-        border-radius: 10px;
-        font-size: 2vw;
-        text-align: center;
-        cursor: pointer;
-        position: absolute;
-        margin-top:  40px;
-    }
-
-    #js--aantal1{
-        font-family: 'McLaren', cursive;
-        margin-right: 30px;
-        font-size: 20px;
-    }
-    
-    #js--aantal2{
-        font-family: 'McLaren', cursive;
-        margin-right: 30px;
-        font-size: 20px;
-    }
-    
-    #js--aantal3{
-        font-family: 'McLaren', cursive;
-        margin-right: 30px;
-        font-size: 20px;
-    }
-    
-    #js--aantal4{
-        font-family: 'McLaren', cursive;
-        margin-right: 30px;
-        font-size: 20px;
-    }
-
-    .prijs{
-        font-family: 'McLaren', cursive;
-        font-size: 20px;
-        margin-left: 50px;
-        margin-top: 46px;
-    }
-
+    margin-left: 215px;
 }
 
 /* route */ 
@@ -933,6 +756,10 @@ h3{
         height: 100%;
         margin: 0 auto;
     }
+    .secH{
+        width: 25vw;
+      
+    }
 }
 
 @media screen and (max-width:1000px){
@@ -1027,26 +854,22 @@ h3{
         width: 100%;
     }
 
+    .HoofdSection{
+        width: 100%;
+    }
 
     #button1KinderenLinks{
         width: 5vw;
         height: 5vw;
         font-size: 2vw;
         text-align: center;
-
-        margin-top: 87px;
-        margin-right: 100px;
     }
 
     #button1KinderenRechts{
-        width: 5vw;
-        height: 5vw;
-        border-radius: 10px;
+        width: 6vw;
+        height: 6vh;
         font-size: 2vw;
-        text-align: center;
-
-        position: absolute;
-        margin-top: 87px;
+        margin: auto;
     }
 
     #button2KinderenLinks{
@@ -1065,7 +888,7 @@ h3{
         border-radius: 10px;
         font-size: 2vw;
         text-align: center;
-        position: absolute;
+       
         margin-top: 87px;
     }
 
@@ -1110,26 +933,26 @@ h3{
 
     #js--aantal1{
         font-family: 'McLaren', cursive;
-        margin-right: 100px;
-        font-size: 20px;
+        margin-right: 80%;
+        font-size: 100%;
     }
 
     #js--aantal2{
         font-family: 'McLaren', cursive;
-        margin-right: 100px;
-        font-size: 20px;
+        margin-right: 80%;
+        font-size: 100%;
     }
 
     #js--aantal3{
         font-family: 'McLaren', cursive;
-        margin-right: 100px;
-        font-size: 20px;
+        margin-right: 80%;
+        font-size: 100%;
     }
 
     #js--aantal4{
         font-family: 'McLaren', cursive;
-        margin-right: 100px;
-        font-size: 20px;
+        margin-right: 80%;
+        font-size: 100%;
     }
     .prijs{
         font-family: 'McLaren', cursive;
@@ -1160,24 +983,23 @@ h3{
 
     .titleKaartjes{
         margin-bottom: 70px;
-        font-size: 60px;
+        font-size: 560%;
         width: 100%;
     }
     .h2Personen{
         font-family: 'McLaren', cursive;
         text-align: center;
-        font-size: 30px;
+        font-size: 200%;
         margin: 0 auto;
         width: 100%;
     }
 
     .h3Personen{
         font-family: 'McLaren', cursive;
-        font-size: 20px;
-        text-align: center;
+        font-size: 180%;
+        text-align: left;
         display: block;
         margin-top: 103px;
-        
     }
 }
 
@@ -1205,6 +1027,10 @@ h3{
 
     .imgroute{
         height: 300px;
+    }
+
+    .HoofdSection{
+        width: 100%;
     }
 
     .titleKaartjes{
@@ -1431,6 +1257,10 @@ h3{
 
     .h3RouteInfo{
         font-size: 125%;
+    }
+
+    .HoofdSection{
+        width: 100%;
     }
 
     .titleKaartjes{
