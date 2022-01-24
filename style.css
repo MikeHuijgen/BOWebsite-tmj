@@ -118,13 +118,17 @@ footer{
     width: 300px;
     height: 50px;
     bottom: 50px;
-    left: 40%;
     font-size: 40px;
     border: 3px solid black;
     border-radius: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
     text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 .leftdownbutton:hover{
@@ -759,9 +763,6 @@ h3{
         margin: 0 auto;
     }
 
-    .leftdownbutton{
-        left: 35%;
-    }
 }
 
 @media screen and (max-width:1000px){
@@ -854,6 +855,10 @@ h3{
     
     .pRouteInfo{
         width: 100%;
+    }
+
+    .leftdownbutton{
+        width: 250px;
     }
 }
 
@@ -983,6 +988,10 @@ h3{
 
     .h3RouteInfo{
         font-size: 125%;
+    }
+
+    .leftdownbutton{
+        width: 200px;
     }
 }
 
