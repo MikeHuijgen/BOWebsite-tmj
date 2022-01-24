@@ -436,8 +436,10 @@ footer{
 .pRouteInfo{
     display: flex;
     justify-content: center;
+    font-family: 'McLaren', cursive;
     width: 700px;
     margin: 0 auto;
+
 }
 
 #knopNoord, #knopZuid, #knopTerug{
