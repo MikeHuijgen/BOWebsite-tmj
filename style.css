@@ -234,12 +234,11 @@ footer{
 /*Sections*/ 
 .HoofdSection{
     width: 100%;
-    height: 140vh;
+    height: 600px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
 }
 
 .secK{
@@ -434,7 +433,6 @@ footer{
     justify-content: center;
     font-size: 40px;
     margin-top: 60px;
-
 }
 
 /* route */ 
@@ -1168,7 +1166,7 @@ h3{
 
     .kinderDiv{
         width: 0 auto;
-        margin-top: 40px;
+        margin-top: 25px;
     }
 
     #button1KinderenLinks{
@@ -1260,7 +1258,8 @@ h3{
 
     .prijs{
         font-family: 'McLaren', cursive;
-        font-size: 100%;
+        font-size: 80%;
+        margin: 59px;
     }
 
     .secPersonen{
@@ -1302,7 +1301,7 @@ h3{
         font-size: 100%;
         text-align: left;
         display: block;
-        margin-top: 75px;
+        margin-top: 56px;
     }
 
     .h1art{
@@ -1396,12 +1395,12 @@ h3{
 
     .HoofdSection{
         width: 100%;
-        height: 80vh;
+        height: 450px;
     }
 
     .kinderDiv{
         width: 0 auto;
-        margin-top: 50px;
+        margin-top: 28px;
     }
 
     #button1KinderenLinks{
@@ -1493,27 +1492,29 @@ h3{
 
     .prijs{
         font-family: 'McLaren', cursive;
-        margin: 60px;
-        font-size: 100%;
+        margin: 51px;
+        margin-top: 60px;
+        font-size: 90%;
     }
 
     .secPersonen{
         border-right: 2px solid black;
         margin: 0 auto;
-        height: 650px;
+        height: 100%;
         width: 30vw;
     }
 
     .secK{
         margin: 0 auto;
         border-left: 2px solid black;
-        height: 650px;
+        height: 100%;
         width: 30vw;
     }
 
     .secH{
+        justify-content: center;
         margin: 0 auto;
-        height: 650px;
+        height: 100%;
         width: 30vw;
     }
 
@@ -1536,7 +1537,7 @@ h3{
         font-size: 100%;
         text-align: left;
         display: block;
-        margin-top: 80px;
+        margin-top: 55px;
     }
 
     .h2tentoon{
