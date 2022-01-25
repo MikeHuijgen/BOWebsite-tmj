@@ -34,6 +34,7 @@ nav > ul{
 }
 
 nav > ul > li{
+    font-family: 'McLaren', cursive;
     width: 100%;
     height: 100%;
 }
@@ -55,6 +56,7 @@ h1{
 }
 
 h2{
+    font-family: 'McLaren', cursive;
     margin-top: 10px;
 }
 
@@ -107,6 +109,7 @@ footer{
 }
 
 .h2tentoon{
+    font-family: 'McLaren', cursive;
     margin: 0 auto;
     margin-left: 10px;
     margin-right: 10px;
@@ -485,6 +488,7 @@ footer{
 }
 
 .richtingText{
+    font-family: 'McLaren', cursive;
     margin: 0 auto;
     margin-bottom: 20px;
     text-align: center;
@@ -502,6 +506,7 @@ footer{
 }
 
 .h3RouteInfo{
+    font-family: 'McLaren', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
